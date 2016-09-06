@@ -1,0 +1,17 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="http://makingsensesc" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="Views\Shared\Header.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DA3F4A74-01F2-4240-8801-5CF7B7BFEC6C}</Item>
+  </File>
+  <File Include="Views\Design\Home.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4D2DD891-56EC-4A71-8BBE-D3910E0F9300}</Item>
+  </File>
+  <File Include="Views\Shared\Footer.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{621E679F-79B1-4B58-BAF5-01AFB35AF15E}</Item>
+  </File>
+  <File Include="Views\Layout\Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1650FB31-B794-40C9-A0FB-87E00FF06869}</Item>
+  </File>
+</Project>

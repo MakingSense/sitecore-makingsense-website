@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {B6B92807-D6E3-4F21-8190-BD602039AED3}
+database: master
+path: /sitecore/templates/User Defined/Making Sense/Shared/Header/__Standard Values
+parent: {4754AC46-0478-4958-B485-99329AE5F139}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4754AC46-0478-4958-B485-99329AE5F139}
+templatekey: Header
+created: 20160906T141533:636087681338500000
+
+----version----
+language: en
+version: 1
+revision: ac3b720e-90ec-4381-9465-1a78e55ed1c3
+
+----field----
+field: {88D1014D-FEBD-4A91-AF80-204F7CF7E301}
+name: Logo
+key: logo
+content-length: 58
+
+<image mediaid="{9FFEC22A-5126-4CCE-B6F3-6ABBE87095EF}" />
+----field----
+field: {D82CC7F9-D223-4841-B73E-689422AB125D}
+name: Link
+key: link
+content-length: 123
+
+<link text="" linktype="internal" class="" title="" target="" querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160906T141533Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac3b720e-90ec-4381-9465-1a78e55ed1c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160906T141604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

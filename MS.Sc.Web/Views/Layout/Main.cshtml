@@ -1,0 +1,87 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+  Layout = null;
+}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    <meta name="description" content="Making Sense provides world-class custom software with great UX. IT Outsourcing with onshore delivery. Want to meet our happy clients?">
+    <meta name="keywords" content="Innovative Software, IT, Making Sense, IT Outsourcing, IT Services, Software Development, Custom Software Development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css?v=3.4.2">
+    <link rel="canonical" href="" />
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/oldbrowsers.css">
+    <script type="text/javascript">
+        function oldbrowser_close(e) {
+            e.parentNode.parentNode.parentNode.removeChild(e.parentNode.parentNode);
+            document.cookie = 'is_oldbrowser=accepted';
+        }
+    </script>
+    <![endif]-->
+    <meta property="og:title" content="Innovative Apps & Software | Making Sense | IT Outsourcing" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="Making Sense provides world-class custom software with great UX. IT Outsourcing with onshore delivery. Want to meet our happy clients?" />
+    <meta property="og:site_name" content="Making Sense" />
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Innovative Apps & Software | Making Sense | IT Outsourcing">
+    <meta name="DC.identifier" content="http://makingsense.com/">
+    <meta name="DC.description" content="Making Sense provides world-class custom software with great UX. IT Outsourcing with onshore delivery. Want to meet our happy clients?">
+    <meta name="DC.subject" content="">
+    <meta name="DC.language" scheme="ISO639-1" content="en">
+    <meta name="DC.creator" content="Making Sense">
+    <meta name="DC.license" content="http://creativecommons.org/licenses/by/4.0/deed.es">
+    <meta name="DC.type" scheme="DCMITYPE" content="http://purl.org/dc/dcmitype/Software">
+    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+    <meta name="DCTERMS.created" scheme="ISO8601" content="01-01-2006">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="https://plus.google.com/+Makingsense" rel="publisher" />
+    @Html.Sitecore().VisitorIdentification()
+</head>
+    <body class="section--home"> @*TODO: Set the body class dynamically*@
+        @Html.Sitecore().Placeholder("header")
+        <!-- End of main header -->
+        <!-- Include of main content -->
+        @Html.Sitecore().Placeholder("mainContent")
+        <!-- Include of main footer -->
+        @Html.Sitecore().Placeholder("footer")
+        <!-- End of main footer -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="js/plugins/videoPlayer.js"></script>
+        <script src="js/plugins/slick.js"></script>
+
+        <script src="js/script.js?v=3.4.2"></script>
+
+        <script type="text/javascript"> var vv_account_id = 'HaHyPskG7K'; var vv_BaseURL = (("https:" == document.location.protocol) ? "https://frontend.id-visitors.com/FrontEndWeb/" : "http://frontend.id-visitors.com/FrontEndWeb/");document.write(unescape("%3Cscript src='" + vv_BaseURL + "Scripts/liveVisit.js' type='text/javascript'%3E%3C/script%3E"));</script>
+        <script type="text/javascript"> try {document.write(unescape("%3Cscript src='" + new_url +"' type='text/javascript'%3E%3C/script%3E"));} catch( err ) {}</script>
+
+        <!-- Google Analytics Code
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-29757258-1', 'auto');
+        ga('send', 'pageview');
+
+        </script>-->
+    </body>
+</html>

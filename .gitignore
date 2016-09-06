@@ -3,3 +3,16 @@
 ################################################################################
 
 /MS.Sc.Web/bin
+/MS.Sc.Web/obj/Debug
+/MS.Sc.Web/Properties
+/MS.Sc.Templates.TDS/bin
+/MS.Sc.Templates.TDS/obj
+/MS.Sc.System.TDS/obj/IconCache
+/MS.Sc.Models/bin/Debug
+/MS.Sc.Models/obj/Debug
+/MS.Sc.Models/Properties
+/MS.Sc.Content.TDS/bin
+/MS.Sc.Content.TDS/obj/IconCache
+/MS.Sc.Business/bin/Debug
+/MS.Sc.Business/obj/Debug
+/.vs/config

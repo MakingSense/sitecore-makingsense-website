@@ -1,0 +1,126 @@
+----item----
+version: 1
+id: {9FFEC22A-5126-4CCE-B6F3-6ABBE87095EF}
+database: master
+path: /sitecore/media library/Making Sense/Images/Header/header_logo
+parent: {69AF0818-7E00-4DA6-9AA6-83BC1A1F4733}
+name: header_logo
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20160906T141523:636087681230100000
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1412
+
+iVBORw0KGgoAAAANSUhEUgAAAJsAAAAaCAMAAACXU97DAAAAM1BMVEVMaXH////////v7+//////
+///////////19fX////y8vL////+/v7////5+fn////w8PC1TGWZAAAAD3RSTlMAIFDvEGAwgMhA
+3HChkLUeM4Y9AAADc0lEQVR42s2W25LbIAyGxVHIGMP7P22jU3C320mnm4v8szNegpC+6EAMAKW1
+hqDK7aEKN5nBtZfnXAVeK/SW5kxtEPy/2pxzgSrOh746Q/4QXCTmL9XnUz9km9Fy8h0bpXuA+E/h
+ynwf2wmixf8jfBHeA+RjzgGvxF9nVAD6GdtkJcvJazbIVOGlnl/3DWyzakmdrSLiQIw3NkJEAijy
+CIg9AISI8clc8ESMWQZh/pHciIgli5vIFlSqH2PRXpCY1802rKSPv8YfmlY0NhsJbYGmE0HSDofQ
+ZN7eWZdt2KKk7qq4Oao30p4ZtsY1WS1DT4kAKttqUSPPvLO5grN1ZbuEra5tcVoX3tkuiRH3AJlW
+QHnoquyNSV428Y+NDxPbPGyr7J1PtqtC5QjD2CRjBwAcYkESgs3Fnp8Jo7M5+xpBSsyrhk22Fe5K
+suAIPWRktigHkDdqxg4ahC5m4JLGprcXkTiVyM6WNLDSk1YIkqyKVgL2JJEndmR10NXDBah9kMW2
+aWUyUYYkHgWR9iVJhYsaGet6DlYlxBtbPsXlZtukksuVwdhUWRKgHNYzeTpbdNsh2a8Sz7q+OJsG
+Jj5VuaSeo3Da93a2IpHwe7asXedsrnjamGnUerAfDWi23qepWwEBCgfOxuYdPpafrN4um81Vv2PT
+nt1sW5npFogfcXnA72yQcVl2C5s2myfV6UMovHYycSIK0Y2t4cGn/spGd7ZMVOE5sHW6rgww7mys
+qBcKTVcHUxO2oEet2mSlD8amS/o7mzm0OZXddmsZjnG0NqpN8GYbrflnWTLQrh7AZYMpdS92pWgs
+u8v0EZ44SSpTvvZbs0vO2Q4tKldAjA8NWdbcbIOPP4vXvGshj+C/ys3v52wAgUuPmusVpaSWxYNO
+yXpZm20WK3qam42LRNSTUh9SNUQx2WyJDs4Ecc8tzV4aiOfSsvrlWTmwPSdeU5WmS3/SthxjzLs2
+m8luwSBw2yd5pba65NTVnA0tf90BMOu8lKDDZWxR8yhO/VyWFYrbVdxZ2FGOqlXyoGRzqmlyLYld
+my3PIPVHJH9PCOJWP6n6opH740GIBWRPXyUKbxGRdZAcDB1Lzs7G5y9+lccKphzRXcoB9Z05HGIE
+kyxjhvery5X/cSJOvbT0xynO1ZJeQx+nc6oGfJ5Ibp2L4DMVKrxXvwAFFFW16crpLgAAAABJRU5E
+rkJggg==
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 3
+
+155
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+26
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1030
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 8
+
+155 x 26
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/9FFEC22A51264CCEB6F36ABBE87095EF.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: a8ed442f-0d7c-4db2-843c-179df1732d16
+
+----field----
+field: {65885C44-8FCD-4A7F-94F1-EE63703FE193}
+name: Alt
+key: alt
+content-length: 17
+
+Making Sense logo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160906T141523Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a8ed442f-0d7c-4db2-843c-179df1732d16
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160906T141629Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,51 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<footer id="main-footer">
+    <section class="wrapper">
+        <div class="section-content" id="footer">
+            <div id="subscribe-newsletter">
+                <div class="copyright desktop">
+                    <span class="ms-icon icon-msLogo-footer"></span>
+                    <span>2016 Making Sense LLC</span>
+                </div>
+                <div class="socialNetworks">
+                    <p>
+                        <a href="https://www.linkedin.com/company/making-sense-llc" target="_blank"><span class="icon-footer icon-linkedin-footer"></span></a>
+                        <a href="https://www.facebook.com/MakingSenseApps" target="_blank"><span class="icon-footer icon-facebook-footer"></span></a>
+                        <a href="http://instagram.com/makingsenseapps" target="_blank"><span class="icon-footer icon-instagram-footer"></span></a>
+                        <a href="https://twitter.com/MakingSenseApps" target="_blank"><span class="icon-footer icon-twitter-footer"></span></a>
+                        <a href="https://www.youtube.com/user/MakingSenseApps" target="_blank"><span class="icon-footer icon-video-footer"></a></span>
+                        <a href="http://www.crunchbase.com/organization/making-sense" target="_blank"><span class="icon-footer icon-crunchBase-footer"></span></a>
+                    </p>
+                </div>
+                <div class="button-holder">
+                    <a role="button" class="button button--secondary button--dark button--small subscribe-news-button" href="#subscribe-newsletter">SUBSCRIBE TO OUR NEWSLETTER</a>
+                </div>
+                <div class="copyright mobile">
+                    <span class="ms-icon icon-msLogo-footer"></span>
+                    <span>2016 Making Sense LLC</span>
+                </div>
+            </div>
+            <form id="form-newsletter" class="form-newsletter form--inverted" action="http://makingsense.com/subscribe/newsletter.php">
+                <fieldset>
+                    <div class="input--holder">
+                        <label class="label-visible" for="email" data-text="Your Email:">Your Email:</label>
+                        <input id="email" name="email" class="required field-email input-form" type="text" />
+                    </div>
+                    <div class="input--holder telephonePot">
+                        <label for="telephonePot">Telephone:</label>
+                        <input type="text" id="telephonePot" name="telephonePot" class="field-text" />
+                    </div>
+                    <div class="buttons--holder">
+                        <button id="button_subscribe_newsletter" class="button button--secondary button--inverted button--small" type="button">SUBSCRIBE</button>
+                        <a href="#!" id="cancel-subscribe" class="button button--secondary button--hollow button--small button--white">CANCEL</a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</footer>

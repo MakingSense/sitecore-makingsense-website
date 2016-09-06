@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Sc.Web", "MS.Sc.Web\MS.Sc.Web.csproj", "{13C0D3C3-C3FA-4966-9E2F-614A1A9E095E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Sc.Business", "MS.Sc.Business\MS.Sc.Business.csproj", "{E4AC9024-DE38-4900-A515-8A8EAE9E480F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Sc.Models", "MS.Sc.Models\MS.Sc.Models.csproj", "{C5CE457D-CBAC-4CFE-9BE8-05CDDB4B13C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDS", "TDS", "{DBA16F51-95A3-4E6E-8BC1-54DB933B3B30}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MS.Sc.Content.TDS", "MS.Sc.Content.TDS\MS.Sc.Content.TDS.scproj", "{B9580F90-3EE2-4287-8461-8C1141820E95}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MS.Sc.Templates.TDS", "MS.Sc.Templates.TDS\MS.Sc.Templates.TDS.scproj", "{37FF186C-5193-4F4F-9B31-9EB5A40A2476}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MS.Sc.System.TDS", "MS.Sc.System.TDS\MS.Sc.System.TDS.scproj", "{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C0D3C3-C3FA-4966-9E2F-614A1A9E095E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C0D3C3-C3FA-4966-9E2F-614A1A9E095E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C0D3C3-C3FA-4966-9E2F-614A1A9E095E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C0D3C3-C3FA-4966-9E2F-614A1A9E095E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AC9024-DE38-4900-A515-8A8EAE9E480F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AC9024-DE38-4900-A515-8A8EAE9E480F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AC9024-DE38-4900-A515-8A8EAE9E480F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AC9024-DE38-4900-A515-8A8EAE9E480F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CE457D-CBAC-4CFE-9BE8-05CDDB4B13C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CE457D-CBAC-4CFE-9BE8-05CDDB4B13C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CE457D-CBAC-4CFE-9BE8-05CDDB4B13C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CE457D-CBAC-4CFE-9BE8-05CDDB4B13C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9580F90-3EE2-4287-8461-8C1141820E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9580F90-3EE2-4287-8461-8C1141820E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9580F90-3EE2-4287-8461-8C1141820E95}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B9580F90-3EE2-4287-8461-8C1141820E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9580F90-3EE2-4287-8461-8C1141820E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9580F90-3EE2-4287-8461-8C1141820E95}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{37FF186C-5193-4F4F-9B31-9EB5A40A2476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FF186C-5193-4F4F-9B31-9EB5A40A2476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FF186C-5193-4F4F-9B31-9EB5A40A2476}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{37FF186C-5193-4F4F-9B31-9EB5A40A2476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FF186C-5193-4F4F-9B31-9EB5A40A2476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FF186C-5193-4F4F-9B31-9EB5A40A2476}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9580F90-3EE2-4287-8461-8C1141820E95} = {DBA16F51-95A3-4E6E-8BC1-54DB933B3B30}
+		{37FF186C-5193-4F4F-9B31-9EB5A40A2476} = {DBA16F51-95A3-4E6E-8BC1-54DB933B3B30}
+		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2} = {DBA16F51-95A3-4E6E-8BC1-54DB933B3B30}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://makingsensesc.visualstudio.com/
+		SccProjectUniqueName0 = MS.Sc.Business\\MS.Sc.Business.csproj
+		SccProjectName0 = MS.Sc.Business
+		SccLocalPath0 = MS.Sc.Business
+		SccProjectUniqueName1 = MS.Sc.Models\\MS.Sc.Models.csproj
+		SccProjectName1 = MS.Sc.Models
+		SccLocalPath1 = MS.Sc.Models
+		SccProjectUniqueName2 = MS.Sc.Web\\MS.Sc.Web.csproj
+		SccProjectName2 = MS.Sc.Web
+		SccLocalPath2 = MS.Sc.Web
+		SccLocalPath3 = .
+		SccProjectUniqueName4 = MS.Sc.Content.TDS\\MS.Sc.Content.TDS.scproj
+		SccProjectTopLevelParentUniqueName4 = MS.Sc.Web.sln
+		SccProjectName4 = MS.Sc.Content.TDS
+		SccLocalPath4 = MS.Sc.Content.TDS
+		SccProjectUniqueName5 = MS.Sc.System.TDS\\MS.Sc.System.TDS.scproj
+		SccProjectTopLevelParentUniqueName5 = MS.Sc.Web.sln
+		SccProjectName5 = MS.Sc.System.TDS
+		SccLocalPath5 = MS.Sc.System.TDS
+		SccProjectUniqueName6 = MS.Sc.Templates.TDS\\MS.Sc.Templates.TDS.scproj
+		SccProjectTopLevelParentUniqueName6 = MS.Sc.Web.sln
+		SccProjectName6 = MS.Sc.Templates.TDS
+		SccLocalPath6 = MS.Sc.Templates.TDS
+	EndGlobalSection
+EndGlobal
