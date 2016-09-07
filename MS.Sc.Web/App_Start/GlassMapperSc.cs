@@ -8,6 +8,7 @@ DO NOT CHANGE THIS FILE - UPDATE GlassMapperScCustom.cs
 using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.Configuration.Fluent;
 using Glass.Mapper.Sc.IoC;
+using MS.Sc.Infrastructure.Factories;
 using Sitecore.Pipelines;
 
 // WebActivator has been removed. If you wish to continue using WebActivator uncomment the line below
@@ -27,8 +28,8 @@ namespace MS.Sc.Web.App_Start
 			//install the custom services
 			var resolver = GlassMapperScCustom.CreateResolver();
 
-			//create a context
-			var context = Glass.Mapper.Context.Create(resolver);
+            //create a context
+            var context = Glass.Mapper.Context.Create(resolver);
 
 			LoadConfigurationMaps(resolver, context);
 

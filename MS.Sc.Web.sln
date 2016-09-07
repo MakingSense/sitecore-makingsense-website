@@ -17,6 +17,8 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MS.Sc.Templates.TDS", "MS.S
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MS.Sc.System.TDS", "MS.Sc.System.TDS\MS.Sc.System.TDS.scproj", "{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Sc.Infrastructure", "MS.Sc.Infrastructure\MS.Sc.Infrastructure.csproj", "{CD549472-2A3B-41FA-B6F4-A103EB2FB324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CD549472-2A3B-41FA-B6F4-A103EB2FB324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD549472-2A3B-41FA-B6F4-A103EB2FB324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD549472-2A3B-41FA-B6F4-A103EB2FB324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD549472-2A3B-41FA-B6F4-A103EB2FB324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,32 +67,5 @@ Global
 		{B9580F90-3EE2-4287-8461-8C1141820E95} = {DBA16F51-95A3-4E6E-8BC1-54DB933B3B30}
 		{37FF186C-5193-4F4F-9B31-9EB5A40A2476} = {DBA16F51-95A3-4E6E-8BC1-54DB933B3B30}
 		{1B703D48-B006-4504-B8AE-6E89E7B9EFA2} = {DBA16F51-95A3-4E6E-8BC1-54DB933B3B30}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://makingsensesc.visualstudio.com/
-		SccProjectUniqueName0 = MS.Sc.Business\\MS.Sc.Business.csproj
-		SccProjectName0 = MS.Sc.Business
-		SccLocalPath0 = MS.Sc.Business
-		SccProjectUniqueName1 = MS.Sc.Models\\MS.Sc.Models.csproj
-		SccProjectName1 = MS.Sc.Models
-		SccLocalPath1 = MS.Sc.Models
-		SccProjectUniqueName2 = MS.Sc.Web\\MS.Sc.Web.csproj
-		SccProjectName2 = MS.Sc.Web
-		SccLocalPath2 = MS.Sc.Web
-		SccLocalPath3 = .
-		SccProjectUniqueName4 = MS.Sc.Content.TDS\\MS.Sc.Content.TDS.scproj
-		SccProjectTopLevelParentUniqueName4 = MS.Sc.Web.sln
-		SccProjectName4 = MS.Sc.Content.TDS
-		SccLocalPath4 = MS.Sc.Content.TDS
-		SccProjectUniqueName5 = MS.Sc.System.TDS\\MS.Sc.System.TDS.scproj
-		SccProjectTopLevelParentUniqueName5 = MS.Sc.Web.sln
-		SccProjectName5 = MS.Sc.System.TDS
-		SccLocalPath5 = MS.Sc.System.TDS
-		SccProjectUniqueName6 = MS.Sc.Templates.TDS\\MS.Sc.Templates.TDS.scproj
-		SccProjectTopLevelParentUniqueName6 = MS.Sc.Web.sln
-		SccProjectName6 = MS.Sc.Templates.TDS
-		SccLocalPath6 = MS.Sc.Templates.TDS
 	EndGlobalSection
 EndGlobal

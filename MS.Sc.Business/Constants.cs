@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MS.Sc.Business
+﻿namespace MS.Sc.Business
 {
-    public class Constants
+    /// <summary>
+    /// Business Constants Class
+    /// </summary>
+    public sealed class Constants
     {
+        /// <summary>
+        /// ViewPaths Constants Class
+        /// </summary>
+        public sealed class Global
+        {
+            public const string Layout = "Layout";
+            public const string Core = "core";
+        }
     }
 }
