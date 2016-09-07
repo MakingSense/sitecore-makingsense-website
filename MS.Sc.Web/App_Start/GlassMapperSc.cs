@@ -28,6 +28,9 @@ namespace MS.Sc.Web.App_Start
 			//install the custom services
 			var resolver = GlassMapperScCustom.CreateResolver();
 
+            IoC.Container = Glass.Mapper.Sc.CastleWindsor.DependencyResolver.CreateStandardResolver().Container;
+            GlassMapperScCustom.CastleConfig(IoC.Container);
+
             //create a context
             var context = Glass.Mapper.Context.Create(resolver);
 

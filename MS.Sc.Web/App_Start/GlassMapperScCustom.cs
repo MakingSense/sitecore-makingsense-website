@@ -5,7 +5,6 @@ using Glass.Mapper.Configuration;
 using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.IoC;
-using MS.Sc.Infrastructure.Factories;
 using MS.Sc.Infrastructure.Helpers;
 using System;
 using IDependencyResolver = Glass.Mapper.Sc.IoC.IDependencyResolver;
@@ -14,12 +13,14 @@ namespace MS.Sc.Web.App_Start
 {
     public static  class GlassMapperScCustom
     {
-        public static IDependencyResolver CreateResolver()
+        /// <summary>
+        /// Castles the configuration.
+        /// </summary>
+        /// <param name="container">The container.</param>
+        public static void CastleConfig(IWindsorContainer container)
         {
-            var config = new Glass.Mapper.Sc.Config();
+            if (container == null) return;
 
-            var container = new Castle.Windsor.WindsorContainer();
-            container.Install(new Glass.Mapper.Sc.CastleWindsor.WindsorSitecoreInstaller(config));
             Type[] installerTypes = WindsorHelper.GetWindsorInstallerTypes();
 
             foreach (var type in installerTypes)
@@ -30,11 +31,16 @@ namespace MS.Sc.Web.App_Start
                     container.Install(installer as IWindsorInstaller);
                 }
             }
-            var resolver = new Glass.Mapper.Sc.CastleWindsor.DependencyResolver(container);
-            IoC.Container = resolver.Container;
-
-            return resolver;
         }
+
+        public static IDependencyResolver CreateResolver(){
+			var config = new Glass.Mapper.Sc.Config();
+
+			var dependencyResolver = new DependencyResolver(config);
+            // add any changes to the standard resolver here
+            
+            return dependencyResolver;
+		}
 
 		public static IConfigurationLoader[] GlassLoaders(){			
 			
