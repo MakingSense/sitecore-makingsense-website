@@ -14,6 +14,7 @@
     /// [CustomLifestyle(typeof(RecycledSingletonLifestyleManager))]
     public class SitecoreService : ISitecoreService
     {
+
         #region Properties
 
         /// <summary>

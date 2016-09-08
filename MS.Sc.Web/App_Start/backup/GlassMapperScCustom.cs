@@ -1,11 +1,9 @@
 #region GlassMapperScCustom generated code
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
-using Glass.Mapper;
 using Glass.Mapper.Configuration;
 using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
-using Glass.Mapper.Sc.CastleWindsor;
 using Glass.Mapper.Sc.IoC;
 using MS.Sc.Infrastructure.Helpers;
 using System;
@@ -23,14 +21,11 @@ namespace MS.Sc.Web.App_Start
         {
             if (container == null) return;
 
-            var config = new Glass.Mapper.Sc.Config();
-
             Type[] installerTypes = WindsorHelper.GetWindsorInstallerTypes();
 
             foreach (var type in installerTypes)
             {
                 object installer = Activator.CreateInstance(type);
-
                 if (installer != null)
                 {
                     container.Install(installer as IWindsorInstaller);
@@ -41,7 +36,7 @@ namespace MS.Sc.Web.App_Start
         public static IDependencyResolver CreateResolver(){
 			var config = new Glass.Mapper.Sc.Config();
 
-			var dependencyResolver = new Glass.Mapper.Sc.IoC.DependencyResolver(config);
+			var dependencyResolver = new DependencyResolver(config);
             // add any changes to the standard resolver here
             
             return dependencyResolver;

@@ -1,12 +1,14 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Analytics.Extensions
 @using Sitecore.Mvc.Presentation
+@using MS.Sc.Business.SitecoreExtensions
+
 @model RenderingModel
 @{
   Layout = null;
 }
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="@Sitecore.Context.Language.ToString()">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -72,16 +74,13 @@
         <script type="text/javascript"> var vv_account_id = 'HaHyPskG7K'; var vv_BaseURL = (("https:" == document.location.protocol) ? "https://frontend.id-visitors.com/FrontEndWeb/" : "http://frontend.id-visitors.com/FrontEndWeb/");document.write(unescape("%3Cscript src='" + vv_BaseURL + "Scripts/liveVisit.js' type='text/javascript'%3E%3C/script%3E"));</script>
         <script type="text/javascript"> try {document.write(unescape("%3Cscript src='" + new_url +"' type='text/javascript'%3E%3C/script%3E"));} catch( err ) {}</script>
 
-        <!-- Google Analytics Code
         <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-29757258-1', 'auto');
-        ga('send', 'pageview');
-
-        </script>-->
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', '@Html.Sitecore().GoogleAnalyticsAccountCode()', 'auto');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>

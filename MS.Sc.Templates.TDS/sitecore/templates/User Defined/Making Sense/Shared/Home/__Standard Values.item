@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {4E4EC51C-3FDD-4DE5-B2D1-0871BA3C666B}
+database: master
+path: /sitecore/templates/User Defined/Making Sense/Shared/Home/__Standard Values
+parent: {FC678F71-56AA-47C7-9538-B8B968B93740}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {FC678F71-56AA-47C7-9538-B8B968B93740}
+templatekey: Home
+created: 20160908T125314:636089359943430000
+
+----field----
+field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
+name: __Subitems Sorting
+key: __subitems sorting
+content-length: 38
+
+{C1FF011E-B02A-44E3-8444-9FC89CFC28CE}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{406CDF1F-63A9-40B1-839C-196695A966D1}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 524
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1650FB31-B794-40C9-A0FB-87E00FF06869}"><r ds="{C6121457-4BC3-4E5C-BC64-13160F0CC9DA}" id="{DA3F4A74-01F2-4240-8801-5CF7B7BFEC6C}" par="" ph="/header" uid="{7463E440-44AB-47C2-AAF5-07D837664794}" /><r id="{4D2DD891-56EC-4A71-8BBE-D3910E0F9300}" ph="/mainContent" uid="{D4E0479A-AC53-49D3-89E3-24310C401E62}" /><r id="{621E679F-79B1-4B58-BAF5-01AFB35AF15E}" ph="/footer" uid="{C2AD526E-B078-496A-9548-08D9AB664FC0}" /></d></r>
+----version----
+language: en
+version: 1
+revision: c91c0430-81a5-4d96-8437-e813b97af186
+
+----field----
+field: {DB7FEF5A-0957-4FE3-ABE6-E33BB46FC8C4}
+name: Title
+key: title
+content-length: 58
+
+Innovative Apps & Software | Making Sense | IT Outsourcing
+----field----
+field: {ED6E4953-C3EF-4F60-B022-F6B024E54660}
+name: Meta Title
+key: meta title
+content-length: 58
+
+Innovative Apps & Software | Making Sense | IT Outsourcing
+----field----
+field: {F1CD55BE-14D3-4958-8E30-CC9789877818}
+name: Meta Keywords
+key: meta keywords
+content-length: 117
+
+Innovative Software, IT, Making Sense, IT Outsourcing, IT Services, Software Development, Custom Software Development
+----field----
+field: {B4EA1307-F39A-470F-84BB-CA7269FDB392}
+name: Meta Description
+key: meta description
+content-length: 134
+
+Making Sense provides world-class custom software with great UX. IT Outsourcing with onshore delivery. Want to meet our happy clients?
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160908T125314Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c91c0430-81a5-4d96-8437-e813b97af186
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160908T132747Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

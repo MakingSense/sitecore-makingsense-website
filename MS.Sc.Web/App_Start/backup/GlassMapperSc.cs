@@ -9,7 +9,6 @@ using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.Configuration.Fluent;
 using Glass.Mapper.Sc.IoC;
 using MS.Sc.Infrastructure.Factories;
-using MS.Sc.Infrastructure.Logging;
 using Sitecore.Pipelines;
 
 // WebActivator has been removed. If you wish to continue using WebActivator uncomment the line below
@@ -42,10 +41,7 @@ namespace MS.Sc.Web.App_Start
 				);
 
 			GlassMapperScCustom.PostLoad();
-
-            var logger = IoC.Container.Resolve<ILoggingService>("WindsorLogging");
-            logger.Debug("IoC.Created");
-        }
+		}
 
         public static void LoadConfigurationMaps(IDependencyResolver resolver, Glass.Mapper.Context context)
         {

@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {4754AC46-0478-4958-B485-99329AE5F139}
+id: {70E5CAB5-FD8D-4073-BE6B-CD2E1BF76FC7}
 database: master
-path: /sitecore/templates/User Defined/Making Sense/Shared/Header
-parent: {FF10458B-EED1-4209-BCDD-9E33C411B197}
-name: Header
+path: /sitecore/templates/User Defined/Global/Site
+parent: {5CF4208F-6159-407E-83C2-2E8A1CA3D8AA}
+name: Site
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
-created: 20160906T141217:636087679378130000
+created: 20160908T125607:636089361672400000
 
 ----field----
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
@@ -23,18 +23,18 @@ name: __Standard values
 key: __standard values
 content-length: 38
 
-{B6B92807-D6E3-4F21-8190-BD602039AED3}
+{6E770901-8D0A-4F17-9A31-BC9CE146180A}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 25
+content-length: 24
 
-Apps/32x32/Window (1).png
+Network/16x16/earth2.png
 ----version----
 language: en
 version: 1
-revision: 2a0e7449-5d20-45cb-afaa-da465f599bc9
+revision: fb8c73af-aeae-4642-8122-c8fbca348d6c
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,7 +42,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160906T141217Z
+20160908T125607Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2a0e7449-5d20-45cb-afaa-da465f599bc9
+fb8c73af-aeae-4642-8122-c8fbca348d6c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160908T124819Z
+20160908T125653Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

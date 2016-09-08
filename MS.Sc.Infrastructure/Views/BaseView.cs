@@ -1,7 +1,11 @@
-﻿using Glass.Mapper.Sc.Web.Mvc;
-
-namespace MS.Sc.Infrastructure.Views
+﻿namespace MS.Sc.Infrastructure.Views
 {
+    using System.Globalization;
+    using System.Web;
+
+    using Glass.Mapper.Sc;
+    using Glass.Mapper.Sc.Web.Mvc;
+
     /// <summary>
     /// BaseView Class
     /// </summary>

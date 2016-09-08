@@ -4,8 +4,6 @@
     using Castle.MicroKernel.SubSystems.Configuration;
     using Castle.Windsor;
 
-    using Glass.Mapper.Sc;
-
     using Logging;
 
     /// <summary>
@@ -25,7 +23,7 @@
             if (container != null)
             {
                 // Services
-                container.Register(Component.For<ISitecoreService>().ImplementedBy<SitecoreService>());
+                container.Register(Component.For<Business.Services.ISitecoreService>().ImplementedBy<Business.Services.SitecoreService>());
 
                 // Logging
                 container.Register(Component.For<ILoggingService>().ImplementedBy<WindsorLogging>().Named("WindsorLogging"));
