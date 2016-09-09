@@ -74,6 +74,8 @@
   <ItemGroup>
     <Compile Include="Base\GlassBase.cs" />
     <Compile Include="Base\IGlassBase.cs" />
+    <Compile Include="Entities\IMS_Video.cs" />
+    <Compile Include="Entities\MS_Video.cs" />
     <Compile Include="GeneratedEntities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

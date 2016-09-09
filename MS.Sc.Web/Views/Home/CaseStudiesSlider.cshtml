@@ -1,0 +1,69 @@
+﻿@inherits MS.Sc.Infrastructure.Views.BaseView<MS.Sc.Models.ICase_Studies_Slider>
+@{ int cnt = 1; int cnt2 = 1; }
+<section class="section--auto-height section--home-slider" id="our-work">
+    <div class="section-touch">
+        <h2 class="print">@Editable(i => i.Title)</h2>
+        @foreach (var slide in Model.Slides)
+        {
+            <div id="slide@(cnt)" class="item slide-@slide.CSS_Class" style="background-image:url('@(slide.Background_Image != null ? slide.Background_Image.Src : string.Empty)')">
+                <div class="section--content">
+                    <h2>@Editable(slide, s => s.Description)</h2>
+                    <p>@Editable(slide, s => s.Author)</p>
+                    <a href="#video-slide@(cnt++)" role="button" class="button play-testimonial">
+                        <span class="player"><span class="arrow-player"></span></span>
+                    </a>
+                </div>
+                <div class="pager">
+                    @{ int sb = 1; }
+                    @foreach (var s in Model.Slides)
+                    {
+                        <a href="#slide(@sb)" role="button" class="pager-@sb++ @(s.Id == slide.Id ? "active" : string.Empty)">
+                            @RenderImage(s, i => i.Image)
+                            <span>@Editable(s, i => i.Company_Name)</span>
+                        </a>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+@foreach (var slide in Model.Slides)
+{
+    <section id="modal--video-@cnt2" class="modal--home-section">
+        <div class="modal-header">
+            <a href="#@cnt" role="button" class="modal--do-close color-inverted video-close is-hidden">Close <span class="icon-close"></span></a>
+        </div>
+        <div class="modal--holder modal--default modal--testimonial" id="video-@slide.CSS_Class">
+            <figure id="videoContainer-video-@cnt" class="video-container">
+                <video id="video-video-@cnt" class="video-element" controls preload="metadata">
+                    <source src="@(slide.Video != null ? slide.Video.Video_Url_Mp4 : string.Empty)" type="video/mp4">
+                    <source src="@(slide.Video != null ? slide.Video.Video_Url_Webm : string.Empty)" type="video/webm">
+                    <source src="@(slide.Video != null ? slide.Video.Video_Url_Ogg : string.Empty)" type="video/ogg">
+                </video>
+                <span id="btPlay-video-@cnt" role="button" class="icon-play"></span>
+                <ul id="video-controls-video-@cnt" class="controls">
+                    <li>
+                        <button id="playpause-video-@cnt" class="play-pause" type="button">
+                            <svg version="1.1" id="Untitled-P_x25_E1gina_x25_201"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="35px"
+                                 viewBox="0 0 35 35" enable-background="new 0 0 35 35" xml:space="preserve">
+                            <g>
+                            <path fill="#FFFFFF" d="M0,0v35h35V0H0z M16,23h-3V12h3V23z M22,23h-3V12h3V23z" />
+                            <rect x="13" y="12" fill="#424251" width="3" height="11" />
+                            <rect x="19" y="12" fill="#424251" width="3" height="11" />
+                                    </g>
+                                </svg>
+                        </button>
+                    </li>
+                    <li class="progress">
+                        <progress id="progress-video-slide@(cnt)" class="progress-element" value="0" min="0">
+                            <span id="progress-bar-video-slide@(cnt)"></span>
+                        </progress>
+                    </li>
+                    <li><span id="videoTime-video-slide@(cnt)" class="video-time"></span></li>
+                </ul>
+            </figure>
+        </div>
+    </section>
+}

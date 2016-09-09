@@ -3,10 +3,10 @@
     /// <summary>
     /// Business Constants Class
     /// </summary>
-    public sealed class Constants
+    internal sealed class Constants
     {
         /// <summary>
-        /// ViewPaths Constants Class
+        /// Global Constants Class
         /// </summary>
         public sealed class Global
         {

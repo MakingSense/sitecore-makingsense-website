@@ -14,4 +14,14 @@
   <File Include="Views\Layout\Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{1650FB31-B794-40C9-A0FB-87E00FF06869}</Item>
   </File>
+  <File Include="Views\Shared\HeaderMobile.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4C7ED6B3-490D-462A-8EB9-16459F67F3F5}</Item>
+    <Item DatabaseName="master">{4C7ED6B3-490D-462A-8EB9-16459F67F3F5}</Item>
+  </File>
+  <File Include="Views\Home\Quotes.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B4C9E2B9-C96C-4A82-A779-6A3761EAC4C7}</Item>
+  </File>
+  <File Include="Views\Home\CaseStudiesSlider.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{69072842-6A23-4631-BAF3-0E0C86E624B9}</Item>
+  </File>
 </Project>

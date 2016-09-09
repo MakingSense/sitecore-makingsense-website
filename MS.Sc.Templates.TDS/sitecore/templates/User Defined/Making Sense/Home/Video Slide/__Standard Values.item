@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {8FD05FB5-FAD2-4115-916D-A1120D1E2FFB}
+database: master
+path: /sitecore/templates/User Defined/Making Sense/Home/Video Slide/__Standard Values
+parent: {10FA6DE3-E011-48CE-AB1F-7E792ED7008C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {10FA6DE3-E011-48CE-AB1F-7E792ED7008C}
+templatekey: Video Slide
+created: 20160909T160125:636090336853370000
+
+----version----
+language: en
+version: 1
+revision: a8d06c3d-614f-4b79-8f13-e461280e1fee
+
+----field----
+field: {CA894DDF-EC5C-4BC2-A8B9-99BE7776DBBD}
+name: Background Image
+key: background image
+content-length: 58
+
+<image mediaid="{0B219436-5E37-4C4D-8123-61AF8C472FB8}" />
+----field----
+field: {AAAA4391-E377-4CF9-8DFC-467B834C1494}
+name: Arrow Image
+key: arrow image
+content-length: 58
+
+<image mediaid="{5EAF896E-6E2B-4CCC-B8C0-41D8AFD33757}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T160125Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a8d06c3d-614f-4b79-8f13-e461280e1fee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T160417Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

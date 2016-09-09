@@ -100,6 +100,8 @@
         /// <returns></returns>
         DateTime IsoDateTimeToDateTime(string isoDate);
 
+        string GetVideoUrl(Item item);
+
         #endregion Methods
     }
 }

@@ -199,6 +199,8 @@
     <Compile Include="App_Start\GlassMapperSc.cs" />
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Extensions\SitecoreHelperExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -227,6 +229,11 @@
     <None Include="App_Config\Include\MS.Sc.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Shared\HeaderMobile.cshtml" />
+    <Content Include="Views\Home\VideoSlide.cshtml" />
+    <Content Include="Views\Home\Quotes.cshtml" />
+    <Content Include="Views\Home\CaseStudiesSlider.cshtml" />
+    <Content Include="Views\Home\HowWeAre.cshtml" />
+    <Content Include="Views\Home\Companies.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -234,9 +241,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\MS.Sc.Business\MS.Sc.Business.csproj">
       <Project>{e4ac9024-de38-4900-a515-8a8eae9e480f}</Project>

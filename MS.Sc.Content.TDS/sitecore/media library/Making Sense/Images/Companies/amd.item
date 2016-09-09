@@ -1,0 +1,92 @@
+----item----
+version: 1
+id: {05E8E4C3-E740-4A08-B278-69E40E7F0B55}
+database: master
+path: /sitecore/media library/Making Sense/Images/Companies/amd
+parent: {2264094A-F5D0-4D17-B924-45FC25E36993}
+name: amd
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20160909T125603:636090225634430000
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 968
+
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAuNzA0IiBo
+ZWlnaHQ9IjcwLjk4NiIgdmlld0JveD0iMCAwIDEwMC43MDQgNzAuOTg2Ij48cGF0aCBmaWxsPSIj
+QzVDMkJGIiBkPSJNMjMuNzkgNDUuODg0aC01LjU4TDE2LjUgNDEuNzdINy4yMTRsLTEuNTUgNC4x
+MTRILjE3Nmw4LjM4LTIwLjc4aDZsOS4yMzYgMjAuNzhoLS4wMDJ6TTExLjYzMiAzMC4wNjdsLTMu
+MDUgOC4wNzhoNi40bC0zLjM1LTguMDc4em0zMi40MS00Ljk2NGg0LjUxdjIwLjc4aC01LjE3OFYz
+Mi45MDZsLTUuNjEgNi41MThoLS43OWwtNS42MS02LjUxOHYxMi45OGgtNS4xOFYyNS4xMDJoNC41
+Mmw2LjY2NyA3LjcxMyA2LjY3Mi03LjcxM3ptMTcuNjI3IDBjNy41OTIgMCAxMS40ODMgNC43MyAx
+MS40ODMgMTAuNDE4IDAgNS45NzYtMy43NzUgMTAuMzY0LTEyLjA1NCAxMC4zNjRoLTguNTk2di0y
+MC43OGg5LjE2NnpNNTcuNjggNDIuMDdoMy4zOGM1LjIxNyAwIDYuNzY2LTMuNTI4IDYuNzY2LTYu
+NTc1IDAtMy41NjYtMS45Mi02LjU4Mi02LjgyLTYuNTgyaC0zLjMyNXYxMy4xNi0uMDAyek05NC4x
+NzcgMzAuMDM3SDgzLjQ2MmwtNi41MzctNi41MjdoMjMuNzh2MjMuNzczbC02LjUzLTYuNTNWMzAu
+MDM4aC4wMDJ6TTgzLjQ1NyA0MC43NnYtOS40MWwtNi43MjYgNi43MjV2OS40MDJoOS40MWw2Ljcy
+NC02LjcxNmgtOS40MDh6Ii8+PC9zdmc+
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 3
+
+708
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/05E8E4C3E7404A08B27869E40E7F0B55.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: b951ca1d-8a17-4306-870f-0c205d9d9c83
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T125603Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b951ca1d-8a17-4306-870f-0c205d9d9c83
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T125604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

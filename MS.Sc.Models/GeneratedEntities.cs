@@ -81,9 +81,169 @@ namespace MS.Sc.Models
 
 
  	/// <summary>
+	/// IVideo_Slide Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Home/Video Slide</para>	
+	/// <para>ID: 10fa6de3-e011-48ce-ab1f-7e792ed7008c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IVideo_SlideConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IVideo_Slide : IGlassBase , global::MS.Sc.Models.IItem_Base
+	{
+			
+					/// <summary>
+					/// The Arrow Image field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: aaaa4391-e377-4cf9-8dfc-467b834c1494</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IVideo_SlideConstants.Arrow_ImageFieldName)]
+					Image Arrow_Image  {get; set;}
+			
+			
+					/// <summary>
+					/// The Background Image field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: ca894ddf-ec5c-4bc2-a8b9-99be7776dbbd</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IVideo_SlideConstants.Background_ImageFieldName)]
+					Image Background_Image  {get; set;}
+			
+			
+					/// <summary>
+					/// The Video field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: ce0c2818-148e-4a75-b0ee-6d3371f5a9f7</para>
+					/// <para>Custom Data: type=MS_Video</para>
+					/// </summary>
+					[SitecoreField(IVideo_SlideConstants.VideoFieldName)]
+					MS_Video Video  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IVideo_SlideConstants{
+
+			public const string TemplateIdString = "10fa6de3-e011-48ce-ab1f-7e792ed7008c";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Video Slide";
+
+		
+			
+			public static readonly ID Arrow_ImageFieldId = new ID("aaaa4391-e377-4cf9-8dfc-467b834c1494");
+			public const string Arrow_ImageFieldName = "Arrow Image";
+			
+		
+			
+			public static readonly ID Background_ImageFieldId = new ID("ca894ddf-ec5c-4bc2-a8b9-99be7776dbbd");
+			public const string Background_ImageFieldName = "Background Image";
+			
+		
+			
+			public static readonly ID VideoFieldId = new ID("ce0c2818-148e-4a75-b0ee-6d3371f5a9f7");
+			public const string VideoFieldName = "Video";
+			
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("c6cda4a3-5d5b-445a-a33e-003bac3fe9d5");
+			public const string DescriptionFieldName = "Description";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("db7fef5a-0957-4fe3-abe6-e33bb46fc8c4");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Video_Slide
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Home/Video Slide</para>	
+	/// <para>ID: 10fa6de3-e011-48ce-ab1f-7e792ed7008c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IVideo_SlideConstants.TemplateIdString)] //, Cachable = true
+	public partial class Video_Slide  : GlassBase, IVideo_Slide 
+	{
+	   
+		
+				/// <summary>
+				/// The Arrow Image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: aaaa4391-e377-4cf9-8dfc-467b834c1494</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IVideo_SlideConstants.Arrow_ImageFieldName)]
+				public virtual Image Arrow_Image  {get; set;}
+					
+		
+				/// <summary>
+				/// The Background Image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: ca894ddf-ec5c-4bc2-a8b9-99be7776dbbd</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IVideo_SlideConstants.Background_ImageFieldName)]
+				public virtual Image Background_Image  {get; set;}
+					
+		
+				/// <summary>
+				/// The Video field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: ce0c2818-148e-4a75-b0ee-6d3371f5a9f7</para>
+				/// <para>Custom Data: type=MS_Video</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IVideo_SlideConstants.VideoFieldName)]
+				public virtual MS_Video Video  {get; set;}
+					
+		
+				/// <summary>
+				/// The Description field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: c6cda4a3-5d5b-445a-a33e-003bac3fe9d5</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IVideo_SlideConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: db7fef5a-0957-4fe3-abe6-e33bb46fc8c4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IVideo_SlideConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
 	/// IPage Interface
 	/// <para></para>
-	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Base/Page</para>	
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Page</para>	
 	/// <para>ID: 406cdf1f-63a9-40b1-839c-196695a966d1</para>	
 	/// </summary>
 	[SitecoreType(TemplateId=IPageConstants.TemplateIdString )] //, Cachable = true
@@ -164,7 +324,7 @@ namespace MS.Sc.Models
 	/// <summary>
 	/// Page
 	/// <para></para>
-	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Base/Page</para>	
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Page</para>	
 	/// <para>ID: 406cdf1f-63a9-40b1-839c-196695a966d1</para>	
 	/// </summary>
 	[SitecoreType(TemplateId=IPageConstants.TemplateIdString)] //, Cachable = true
@@ -285,6 +445,17 @@ namespace MS.Sc.Models
 			
 			
 					/// <summary>
+					/// The Social Networks field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: f78ba614-364e-449d-b8ef-bd1aa6f261e9</para>
+					/// <para>Custom Data: generic=Social_Network</para>
+					/// </summary>
+					[SitecoreField(IHeaderConstants.Social_NetworksFieldName)]
+					IEnumerable<Social_Network> Social_Networks  {get; set;}
+			
+			
+					/// <summary>
 					/// The Link Title field.
 					/// <para></para>
 					/// <para>Field Type: Single-Line Text</para>		
@@ -333,6 +504,11 @@ namespace MS.Sc.Models
 			
 		
 			
+			public static readonly ID Social_NetworksFieldId = new ID("f78ba614-364e-449d-b8ef-bd1aa6f261e9");
+			public const string Social_NetworksFieldName = "Social Networks";
+			
+		
+			
 			public static readonly ID Link_TitleFieldId = new ID("63be7af6-2aa4-46eb-be94-c8fb625a97c8");
 			public const string Link_TitleFieldName = "Link Title";
 			
@@ -375,6 +551,18 @@ namespace MS.Sc.Models
 					
 		
 				/// <summary>
+				/// The Social Networks field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: f78ba614-364e-449d-b8ef-bd1aa6f261e9</para>
+				/// <para>Custom Data: generic=Social_Network</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IHeaderConstants.Social_NetworksFieldName)]
+				public virtual IEnumerable<Social_Network> Social_Networks  {get; set;}
+					
+		
+				/// <summary>
 				/// The Link Title field.
 				/// <para></para>
 				/// <para>Field Type: Single-Line Text</para>		
@@ -408,6 +596,160 @@ namespace MS.Sc.Models
 				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
 				[SitecoreField(IHeaderConstants.LogoFieldName)]
 				public virtual Image Logo  {get; set;}
+					
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
+	/// IMS_Video Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Media/MS Video</para>	
+	/// <para>ID: 4e508908-bcd7-4ef0-98a9-568bdb1fc30d</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMS_VideoConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IMS_Video : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The MP4 Video field.
+					/// <para></para>
+					/// <para>Field Type: Droptree</para>		
+					/// <para>Field ID: 347e4e85-3962-4326-ba48-e7da4eec3bc1</para>
+					/// <para>Custom Data: type=VideoFile</para>
+					/// </summary>
+					[SitecoreField(IMS_VideoConstants.MP4_VideoFieldName)]
+					VideoFile MP4_Video  {get; set;}
+			
+			
+					/// <summary>
+					/// The Name field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 565f0e2c-0cd9-48fc-ab77-38643731463a</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IMS_VideoConstants.NameFieldName)]
+					string Name  {get; set;}
+			
+			
+					/// <summary>
+					/// The OGG Video field.
+					/// <para></para>
+					/// <para>Field Type: Droptree</para>		
+					/// <para>Field ID: 6c036c23-4359-468f-82cd-3679f4d7ca82</para>
+					/// <para>Custom Data: type=File</para>
+					/// </summary>
+					[SitecoreField(IMS_VideoConstants.OGG_VideoFieldName)]
+					File OGG_Video  {get; set;}
+			
+			
+					/// <summary>
+					/// The WebM Video field.
+					/// <para></para>
+					/// <para>Field Type: Droptree</para>		
+					/// <para>Field ID: dd9373c4-44e3-4398-9e15-cc0a16e5b9b2</para>
+					/// <para>Custom Data: type=File</para>
+					/// </summary>
+					[SitecoreField(IMS_VideoConstants.WebM_VideoFieldName)]
+					File WebM_Video  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IMS_VideoConstants{
+
+			public const string TemplateIdString = "4e508908-bcd7-4ef0-98a9-568bdb1fc30d";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "MS Video";
+
+		
+			
+			public static readonly ID MP4_VideoFieldId = new ID("347e4e85-3962-4326-ba48-e7da4eec3bc1");
+			public const string MP4_VideoFieldName = "MP4 Video";
+			
+		
+			
+			public static readonly ID NameFieldId = new ID("565f0e2c-0cd9-48fc-ab77-38643731463a");
+			public const string NameFieldName = "Name";
+			
+		
+			
+			public static readonly ID OGG_VideoFieldId = new ID("6c036c23-4359-468f-82cd-3679f4d7ca82");
+			public const string OGG_VideoFieldName = "OGG Video";
+			
+		
+			
+			public static readonly ID WebM_VideoFieldId = new ID("dd9373c4-44e3-4398-9e15-cc0a16e5b9b2");
+			public const string WebM_VideoFieldName = "WebM Video";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// MS_Video
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Media/MS Video</para>	
+	/// <para>ID: 4e508908-bcd7-4ef0-98a9-568bdb1fc30d</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMS_VideoConstants.TemplateIdString)] //, Cachable = true
+	public partial class MS_Video  : GlassBase, IMS_Video 
+	{
+	   
+		
+				/// <summary>
+				/// The MP4 Video field.
+				/// <para></para>
+				/// <para>Field Type: Droptree</para>		
+				/// <para>Field ID: 347e4e85-3962-4326-ba48-e7da4eec3bc1</para>
+				/// <para>Custom Data: type=VideoFile</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_VideoConstants.MP4_VideoFieldName)]
+				public virtual VideoFile MP4_Video  {get; set;}
+					
+		
+				/// <summary>
+				/// The Name field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 565f0e2c-0cd9-48fc-ab77-38643731463a</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_VideoConstants.NameFieldName)]
+				public virtual string Name  {get; set;}
+					
+		
+				/// <summary>
+				/// The OGG Video field.
+				/// <para></para>
+				/// <para>Field Type: Droptree</para>		
+				/// <para>Field ID: 6c036c23-4359-468f-82cd-3679f4d7ca82</para>
+				/// <para>Custom Data: type=File</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_VideoConstants.OGG_VideoFieldName)]
+				public virtual File OGG_Video  {get; set;}
+					
+		
+				/// <summary>
+				/// The WebM Video field.
+				/// <para></para>
+				/// <para>Field Type: Droptree</para>		
+				/// <para>Field ID: dd9373c4-44e3-4398-9e15-cc0a16e5b9b2</para>
+				/// <para>Custom Data: type=File</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_VideoConstants.WebM_VideoFieldName)]
+				public virtual File WebM_Video  {get; set;}
 					
 			
 	}
@@ -488,9 +830,399 @@ namespace MS.Sc.Models
 
 
  	/// <summary>
+	/// ICase_Study_Slide Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Home/Case Study Slide</para>	
+	/// <para>ID: 96a2265c-f974-48e2-9a5d-f22028f14ef6</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICase_Study_SlideConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ICase_Study_Slide : IGlassBase , global::MS.Sc.Models.IItem_Base
+	{
+			
+					/// <summary>
+					/// The Author field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: a0aef149-9716-44ab-acc8-d26c32bf3a88</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICase_Study_SlideConstants.AuthorFieldName)]
+					string Author  {get; set;}
+			
+			
+					/// <summary>
+					/// The Background Image field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 0878843e-0e3b-48ae-acbb-86f313341650</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICase_Study_SlideConstants.Background_ImageFieldName)]
+					Image Background_Image  {get; set;}
+			
+			
+					/// <summary>
+					/// The Company Name field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 78e36448-9cd0-4c10-b56d-6eb7d5ce01b3</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICase_Study_SlideConstants.Company_NameFieldName)]
+					string Company_Name  {get; set;}
+			
+			
+					/// <summary>
+					/// The CSS Class field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 05936364-450f-41e0-8fdb-e32e531f5f5b</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICase_Study_SlideConstants.CSS_ClassFieldName)]
+					string CSS_Class  {get; set;}
+			
+			
+					/// <summary>
+					/// The Image field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: c80c7dd4-9cfd-4001-ae8a-b23226932aed</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICase_Study_SlideConstants.ImageFieldName)]
+					Image Image  {get; set;}
+			
+			
+					/// <summary>
+					/// The Video field.
+					/// <para></para>
+					/// <para>Field Type: Droptree</para>		
+					/// <para>Field ID: 052c2096-0374-4b92-b64c-0a565d6cd35e</para>
+					/// <para>Custom Data: type=MS_Video</para>
+					/// </summary>
+					[SitecoreField(ICase_Study_SlideConstants.VideoFieldName)]
+					MS_Video Video  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ICase_Study_SlideConstants{
+
+			public const string TemplateIdString = "96a2265c-f974-48e2-9a5d-f22028f14ef6";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Case Study Slide";
+
+		
+			
+			public static readonly ID AuthorFieldId = new ID("a0aef149-9716-44ab-acc8-d26c32bf3a88");
+			public const string AuthorFieldName = "Author";
+			
+		
+			
+			public static readonly ID Background_ImageFieldId = new ID("0878843e-0e3b-48ae-acbb-86f313341650");
+			public const string Background_ImageFieldName = "Background Image";
+			
+		
+			
+			public static readonly ID Company_NameFieldId = new ID("78e36448-9cd0-4c10-b56d-6eb7d5ce01b3");
+			public const string Company_NameFieldName = "Company Name";
+			
+		
+			
+			public static readonly ID CSS_ClassFieldId = new ID("05936364-450f-41e0-8fdb-e32e531f5f5b");
+			public const string CSS_ClassFieldName = "CSS Class";
+			
+		
+			
+			public static readonly ID ImageFieldId = new ID("c80c7dd4-9cfd-4001-ae8a-b23226932aed");
+			public const string ImageFieldName = "Image";
+			
+		
+			
+			public static readonly ID VideoFieldId = new ID("052c2096-0374-4b92-b64c-0a565d6cd35e");
+			public const string VideoFieldName = "Video";
+			
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("c6cda4a3-5d5b-445a-a33e-003bac3fe9d5");
+			public const string DescriptionFieldName = "Description";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("db7fef5a-0957-4fe3-abe6-e33bb46fc8c4");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Case_Study_Slide
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Home/Case Study Slide</para>	
+	/// <para>ID: 96a2265c-f974-48e2-9a5d-f22028f14ef6</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICase_Study_SlideConstants.TemplateIdString)] //, Cachable = true
+	public partial class Case_Study_Slide  : GlassBase, ICase_Study_Slide 
+	{
+	   
+		
+				/// <summary>
+				/// The Author field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: a0aef149-9716-44ab-acc8-d26c32bf3a88</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.AuthorFieldName)]
+				public virtual string Author  {get; set;}
+					
+		
+				/// <summary>
+				/// The Background Image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 0878843e-0e3b-48ae-acbb-86f313341650</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.Background_ImageFieldName)]
+				public virtual Image Background_Image  {get; set;}
+					
+		
+				/// <summary>
+				/// The Company Name field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 78e36448-9cd0-4c10-b56d-6eb7d5ce01b3</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.Company_NameFieldName)]
+				public virtual string Company_Name  {get; set;}
+					
+		
+				/// <summary>
+				/// The CSS Class field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 05936364-450f-41e0-8fdb-e32e531f5f5b</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.CSS_ClassFieldName)]
+				public virtual string CSS_Class  {get; set;}
+					
+		
+				/// <summary>
+				/// The Image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: c80c7dd4-9cfd-4001-ae8a-b23226932aed</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.ImageFieldName)]
+				public virtual Image Image  {get; set;}
+					
+		
+				/// <summary>
+				/// The Video field.
+				/// <para></para>
+				/// <para>Field Type: Droptree</para>		
+				/// <para>Field ID: 052c2096-0374-4b92-b64c-0a565d6cd35e</para>
+				/// <para>Custom Data: type=MS_Video</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.VideoFieldName)]
+				public virtual MS_Video Video  {get; set;}
+					
+		
+				/// <summary>
+				/// The Description field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: c6cda4a3-5d5b-445a-a33e-003bac3fe9d5</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: db7fef5a-0957-4fe3-abe6-e33bb46fc8c4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Study_SlideConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
+	/// IPage_Content Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Page Content</para>	
+	/// <para>ID: ae8a0bc1-a3e9-4237-a4c2-b49789f07bce</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IPage_ContentConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IPage_Content : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IPage_ContentConstants{
+
+			public const string TemplateIdString = "ae8a0bc1-a3e9-4237-a4c2-b49789f07bce";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Page Content";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// Page_Content
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Page Content</para>	
+	/// <para>ID: ae8a0bc1-a3e9-4237-a4c2-b49789f07bce</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IPage_ContentConstants.TemplateIdString)] //, Cachable = true
+	public partial class Page_Content  : GlassBase, IPage_Content 
+	{
+	   
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
+	/// ICase_Studies_Slider Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Home/Case Studies Slider</para>	
+	/// <para>ID: b7e6d488-0ac8-420e-974c-c5cfc22e9882</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICase_Studies_SliderConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ICase_Studies_Slider : IGlassBase , global::MS.Sc.Models.IItem_Base
+	{
+			
+					/// <summary>
+					/// The Slides field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: b23bf9a0-8a9e-4dbb-a7d1-551cf2008d52</para>
+					/// <para>Custom Data: generic=Case_Study_Slide</para>
+					/// </summary>
+					[SitecoreField(ICase_Studies_SliderConstants.SlidesFieldName)]
+					IEnumerable<Case_Study_Slide> Slides  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ICase_Studies_SliderConstants{
+
+			public const string TemplateIdString = "b7e6d488-0ac8-420e-974c-c5cfc22e9882";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Case Studies Slider";
+
+		
+			
+			public static readonly ID SlidesFieldId = new ID("b23bf9a0-8a9e-4dbb-a7d1-551cf2008d52");
+			public const string SlidesFieldName = "Slides";
+			
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("c6cda4a3-5d5b-445a-a33e-003bac3fe9d5");
+			public const string DescriptionFieldName = "Description";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("db7fef5a-0957-4fe3-abe6-e33bb46fc8c4");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Case_Studies_Slider
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Home/Case Studies Slider</para>	
+	/// <para>ID: b7e6d488-0ac8-420e-974c-c5cfc22e9882</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICase_Studies_SliderConstants.TemplateIdString)] //, Cachable = true
+	public partial class Case_Studies_Slider  : GlassBase, ICase_Studies_Slider 
+	{
+	   
+		
+				/// <summary>
+				/// The Slides field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: b23bf9a0-8a9e-4dbb-a7d1-551cf2008d52</para>
+				/// <para>Custom Data: generic=Case_Study_Slide</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Studies_SliderConstants.SlidesFieldName)]
+				public virtual IEnumerable<Case_Study_Slide> Slides  {get; set;}
+					
+		
+				/// <summary>
+				/// The Description field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: c6cda4a3-5d5b-445a-a33e-003bac3fe9d5</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Studies_SliderConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: db7fef5a-0957-4fe3-abe6-e33bb46fc8c4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICase_Studies_SliderConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
 	/// IMetadata Interface
 	/// <para></para>
-	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Base/Metadata</para>	
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Metadata</para>	
 	/// <para>ID: d476c1c3-20c1-4739-af76-2dec8c7c5c43</para>	
 	/// </summary>
 	[SitecoreType(TemplateId=IMetadataConstants.TemplateIdString )] //, Cachable = true
@@ -562,7 +1294,7 @@ namespace MS.Sc.Models
 	/// <summary>
 	/// Metadata
 	/// <para></para>
-	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Base/Metadata</para>	
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Metadata</para>	
 	/// <para>ID: d476c1c3-20c1-4739-af76-2dec8c7c5c43</para>	
 	/// </summary>
 	[SitecoreType(TemplateId=IMetadataConstants.TemplateIdString)] //, Cachable = true
@@ -604,6 +1336,216 @@ namespace MS.Sc.Models
 				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
 				[SitecoreField(IMetadataConstants.Meta_TitleFieldName)]
 				public virtual string Meta_Title  {get; set;}
+					
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
+	/// IVideoFile Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Media/VideoFile</para>	
+	/// <para>ID: d834a533-bda3-4c3e-aa8f-6efcb7ddc316</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IVideoFileConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IVideoFile : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IVideoFileConstants{
+
+			public const string TemplateIdString = "d834a533-bda3-4c3e-aa8f-6efcb7ddc316";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "VideoFile";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// VideoFile
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Media/VideoFile</para>	
+	/// <para>ID: d834a533-bda3-4c3e-aa8f-6efcb7ddc316</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IVideoFileConstants.TemplateIdString)] //, Cachable = true
+	public partial class VideoFile  : GlassBase, IVideoFile 
+	{
+	   
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
+	/// IFile Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Media/File</para>	
+	/// <para>ID: d98e4461-2740-4ccd-b5e8-50df298a08c0</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFileConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IFile : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IFileConstants{
+
+			public const string TemplateIdString = "d98e4461-2740-4ccd-b5e8-50df298a08c0";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "File";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// File
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Media/File</para>	
+	/// <para>ID: d98e4461-2740-4ccd-b5e8-50df298a08c0</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFileConstants.TemplateIdString)] //, Cachable = true
+	public partial class File  : GlassBase, IFile 
+	{
+	   
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
+	/// ISocial_Network Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Shared/Social Network</para>	
+	/// <para>ID: e06a4f0b-6d79-423b-9c6f-5c54e6c62a9b</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISocial_NetworkConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISocial_Network : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The CSS Class field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 9ce4dc51-afa1-413d-a97f-70ec4c58c94f</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISocial_NetworkConstants.CSS_ClassFieldName)]
+					string CSS_Class  {get; set;}
+			
+			
+					/// <summary>
+					/// The Link field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: e0b7ceaa-3cbd-48f0-99f9-350c501eb3b9</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISocial_NetworkConstants.LinkFieldName)]
+					Link Link  {get; set;}
+			
+			
+					/// <summary>
+					/// The Name field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 1fe8a8a2-87f2-49c2-80bb-108ef19ece16</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISocial_NetworkConstants.NameFieldName)]
+					string Name  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ISocial_NetworkConstants{
+
+			public const string TemplateIdString = "e06a4f0b-6d79-423b-9c6f-5c54e6c62a9b";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Social Network";
+
+		
+			
+			public static readonly ID CSS_ClassFieldId = new ID("9ce4dc51-afa1-413d-a97f-70ec4c58c94f");
+			public const string CSS_ClassFieldName = "CSS Class";
+			
+		
+			
+			public static readonly ID LinkFieldId = new ID("e0b7ceaa-3cbd-48f0-99f9-350c501eb3b9");
+			public const string LinkFieldName = "Link";
+			
+		
+			
+			public static readonly ID NameFieldId = new ID("1fe8a8a2-87f2-49c2-80bb-108ef19ece16");
+			public const string NameFieldName = "Name";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Social_Network
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Shared/Social Network</para>	
+	/// <para>ID: e06a4f0b-6d79-423b-9c6f-5c54e6c62a9b</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISocial_NetworkConstants.TemplateIdString)] //, Cachable = true
+	public partial class Social_Network  : GlassBase, ISocial_Network 
+	{
+	   
+		
+				/// <summary>
+				/// The CSS Class field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 9ce4dc51-afa1-413d-a97f-70ec4c58c94f</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISocial_NetworkConstants.CSS_ClassFieldName)]
+				public virtual string CSS_Class  {get; set;}
+					
+		
+				/// <summary>
+				/// The Link field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: e0b7ceaa-3cbd-48f0-99f9-350c501eb3b9</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISocial_NetworkConstants.LinkFieldName)]
+				public virtual Link Link  {get; set;}
+					
+		
+				/// <summary>
+				/// The Name field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 1fe8a8a2-87f2-49c2-80bb-108ef19ece16</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISocial_NetworkConstants.NameFieldName)]
+				public virtual string Name  {get; set;}
 					
 			
 	}
@@ -658,7 +1600,7 @@ namespace MS.Sc.Models
  	/// <summary>
 	/// IItem_Base Interface
 	/// <para></para>
-	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Base/Item Base</para>	
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Item Base</para>	
 	/// <para>ID: fa35d9ea-8c7b-423f-bda8-7cc6d759f4a8</para>	
 	/// </summary>
 	[SitecoreType(TemplateId=IItem_BaseConstants.TemplateIdString )] //, Cachable = true
@@ -714,7 +1656,7 @@ namespace MS.Sc.Models
 	/// <summary>
 	/// Item_Base
 	/// <para></para>
-	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Base/Item Base</para>	
+	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Item Base</para>	
 	/// <para>ID: fa35d9ea-8c7b-423f-bda8-7cc6d759f4a8</para>	
 	/// </summary>
 	[SitecoreType(TemplateId=IItem_BaseConstants.TemplateIdString)] //, Cachable = true

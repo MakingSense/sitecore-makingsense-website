@@ -1,19 +1,26 @@
 ----item----
 version: 1
-id: {12678B9B-4312-4B18-91A1-C9029E98FD8A}
+id: {5799F05C-A118-4369-B2A3-537580E59819}
 database: master
 path: /sitecore/content/Home/Blog
 parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
 name: Blog
-master: {00000000-0000-0000-0000-000000000000}
+master: {B648C06D-AF16-4054-830E-DA9A112A5E14}
 template: {406CDF1F-63A9-40B1-839C-196695A966D1}
 templatekey: Page
-created: 20160908T130049:636089364493800000
+created: 20160909T134513:636090255136130000
 
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{A0DFD133-DDF4-408C-83FF-04A7008D41FD}
 ----version----
 language: en
 version: 1
-revision: 1d8319f5-5c2d-4b08-9ee5-252454d01a18
+revision: 52673847-a463-40f0-8267-b3f204476f35
 
 ----field----
 field: {DB7FEF5A-0957-4FE3-ABE6-E33BB46FC8C4}
@@ -28,21 +35,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20160908T130049Z
+20160909T134513Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-1d8319f5-5c2d-4b08-9ee5-252454d01a18
+52673847-a463-40f0-8267-b3f204476f35
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160908T130049Z
+20160909T134513Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

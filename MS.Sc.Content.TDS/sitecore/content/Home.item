@@ -56,9 +56,9 @@ content-length: 0
 field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
 name: __Subitems Sorting
 key: __subitems sorting
-content-length: 38
+content-length: 0
 
-{C1FF011E-B02A-44E3-8444-9FC89CFC28CE}
+
 ----field----
 field: {83798D75-DF25-4C28-9327-E8BAC2B75292}
 name: __Insert Rules
@@ -72,7 +72,14 @@ name: __Masters
 key: __masters
 content-length: 77
 
-{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{406CDF1F-63A9-40B1-839C-196695A966D1}
+{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{B648C06D-AF16-4054-830E-DA9A112A5E14}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 822
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{CC86BD57-6AC4-4F71-A7EE-FAF522AB812C}" p:before="*" s:ds="{C6121457-4BC3-4E5C-BC64-13160F0CC9DA}" s:id="{4C7ED6B3-490D-462A-8EB9-16459F67F3F5}" s:par="" s:ph="/header" /><r uid="{8F0A3D08-F2FD-4BBC-8ECB-D078765F2130}" p:after="r[@uid='{D4E0479A-AC53-49D3-89E3-24310C401E62}']" s:ds="{400D052F-6D1C-4D01-9F15-BE5D3BD19FF7}" s:id="{B508D776-2A47-4F19-B8EE-0B4C5419E2ED}" s:par="" s:ph="/mainContent/homeContent" /><r uid="{37791552-C819-4418-AE61-46910555A4A3}" p:after="r[@uid='{8F0A3D08-F2FD-4BBC-8ECB-D078765F2130}']" s:ds="{6EBC7CE7-9CF2-4514-ADA1-9936D5756612}" s:id="{B4C9E2B9-C96C-4A82-A779-6A3761EAC4C7}" s:par="" s:ph="/mainContent/centerContent" /><r uid="{C2AD526E-B078-496A-9548-08D9AB664FC0}" p:after="*[1=2]" /></d></r>
 ----field----
 field: {86FE4F77-4D9A-4EC3-9ED9-263D03BD1965}
 name: __Publish
@@ -289,7 +296,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: b207186a-8dab-4204-8f2a-6f98ea36662e
+revision: 368dfee7-a71d-4720-b168-6b671d348f91
 
 ----field----
 field: {DB7FEF5A-0957-4FE3-ABE6-E33BB46FC8C4}
@@ -381,14 +388,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b207186a-8dab-4204-8f2a-6f98ea36662e
+368dfee7-a71d-4720-b168-6b671d348f91
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160908T132818Z
+20160909T190153Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

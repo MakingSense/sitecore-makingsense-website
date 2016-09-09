@@ -1,19 +1,5 @@
 ﻿@inherits MS.Sc.Infrastructure.Views.BaseView<MS.Sc.Models.Header>
 
-<!--[if lte IE 9]>
-    <div id="old_browsers">
-        <div class="old_browsers_content">
-            <a class="old_browsers_logo" href="http://makingsense.com/" title="Go to Home"><img src="img/logo-making-oldbrowsers.png" alt=""></a>
-            <div class="old_browsers_message">
-                <h1>You might be using an outdated version of Internet Explorer</h1>
-                <p>In order to get the best possible experience using our site we recommend that you update your Internet Explorer version or change to another web browser such as Chrome or Firefox.</p>
-                <img src="img/old-browsers.png" alt="">
-            </div>
-        </div>
-    </div>
-<![endif]-->
-<!-- Include of main header -->
-
 <header id="main-header">
     <a href="#" id="#!"></a>
     <div class="wrapper">
@@ -82,7 +68,7 @@
                         <foreignObject>
                             @if (Model.Logo != null)
                             {
-                                <img src="@Model.Logo.Title" alt="@Model.Logo.Alt">
+                                <img src="@Model.Logo.Src" alt="@Model.Logo.Alt">
                             }
 						</foreignObject>
 					</switch>

@@ -7,6 +7,7 @@
     using Sitecore.Data.Managers;
     using Sitecore.Globalization;
     using Sitecore.Mvc.Presentation;
+    using Sitecore.Data;
 
     /// <summary>
     /// SitecoreService that connects to the sitecore backend 
@@ -51,6 +52,11 @@
             get { return RenderingContext.CurrentOrNull; }
         }
 
+        /// <summary>
+        /// Gets the video URL.
+        /// </summary>
+        /// <param name="item">The item.</param>
+        /// <returns></returns>
         #endregion Properties
 
         #region Methods
@@ -126,6 +132,26 @@
         public DateTime IsoDateTimeToDateTime(string isoDate)
         {
             return DateUtil.IsoDateToDateTime(isoDate);
+        }
+
+        /// <summary>
+        /// Gets the video URL.
+        /// </summary>
+        /// <param name="item">The item.</param>
+        /// <returns></returns>
+        public string GetVideoUrl(Item item)
+        {
+            if (item != null)
+            {
+                MediaItem mediaItem = Context.Database.GetItem(item.ID);
+
+                if (mediaItem != null)
+                {
+                    return Sitecore.Resources.Media.MediaManager.GetMediaUrl(mediaItem);
+                }
+            }
+
+            return string.Empty;
         }
 
         #endregion Methods

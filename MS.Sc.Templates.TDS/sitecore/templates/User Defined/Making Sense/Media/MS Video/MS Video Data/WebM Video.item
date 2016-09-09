@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {DD9373C4-44E3-4398-9E15-CC0A16E5B9B2}
+database: master
+path: /sitecore/templates/User Defined/Making Sense/Media/MS Video/MS Video Data/WebM Video
+parent: {0FFAA2BD-004A-48DE-9305-3193F05B536E}
+name: WebM Video
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20160909T140857:636090269372730000
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 8
+
+Droptree
+----field----
+field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
+name: Source
+key: source
+content-length: 42
+
+sitecore/media library/Making Sense/Videos
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----version----
+language: en
+version: 1
+revision: 21847fb8-772a-477d-b84a-6c5f9c8c72b7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T140857Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+21847fb8-772a-477d-b84a-6c5f9c8c72b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T141304Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

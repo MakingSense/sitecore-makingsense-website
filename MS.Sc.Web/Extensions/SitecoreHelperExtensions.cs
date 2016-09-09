@@ -1,14 +1,13 @@
-﻿namespace MS.Sc.Business.SitecoreExtensions
+﻿// <copyright file="HomeController.cshtml" company="Making Sense LLC">
+//      Created: 09/09/2016
+//      Making Sense. All rights reserved.
+// </copyright>
+// <author>MMinoldo</author>
+// <summery></summery>
+namespace MS.Sc.Business.SitecoreExtensions
 {
-    using Glass.Mapper.Sc;
-
-    using Infrastructure.Factories;
-
-    using Sitecore.Data.Items;
     using Sitecore.Mvc.Helpers;
-    using Sitecore.Sites;
 
-    using System;
     using System.Web;
 
     /// <summary>
