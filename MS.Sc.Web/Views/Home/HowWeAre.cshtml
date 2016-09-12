@@ -1,8 +1,10 @@
-﻿<section class="section--auto-height section--home-knowhistory">
+﻿@inherits MS.Sc.Infrastructure.Views.BaseView<MS.Sc.Models.IWhoWeAre>
+
+<section class="section--auto-height section--home-knowhistory">
     <div class="wrapper">
-        <h3>Who We Are</h3>
-        <p>We're a team of analysts, engineers and designers working from offices in the United States, Argentina and Mexico, providing end-to-end UX-focused software development to companies seeking to scale in product innovation.</p>
-        <a role="button" class="button button--secondary button--dark button--small" href="http://makingsense.com/about-us">MEET US</a>
-        <img src="img/knowhistory--image.png" alt="">
+        <h3>@Editable(i => i.Title)</h3>
+        <p>@Editable(i => i.Description)</p>
+        @RenderLink(i => i.Button, new { @class = "button button--secondary button--dark button--small" }, isEditable: true  )
+        @RenderImage(i => i.Image, isEditable: true)
     </div>
 </section>
