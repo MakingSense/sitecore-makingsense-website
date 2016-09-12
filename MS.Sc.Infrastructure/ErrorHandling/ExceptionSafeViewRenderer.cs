@@ -1,15 +1,29 @@
-﻿namespace MS.Sc.Business.ErrorHandling
+﻿namespace MS.Sc.Infrastructure.ErrorHandling
 {
     using System;
 
-    using Sitecore.Diagnostics;
     using Sitecore.Mvc.Presentation;
+
+    using Logging;
+
+    using Factories;
+    using System.Web;
+    using Sitecore.Configuration;
+    using System.Globalization;
 
     /// <summary>
     /// ExceptionSafeViewRenderer Class
     /// </summary>
     public class ExceptionSafeViewRenderer : ViewRenderer
     {
+        #region properties
+
+        private ILoggingService _logger;
+
+        #endregion
+
+        #region methods
+
         /// <summary>
         /// Renders the specified writer.
         /// </summary>
@@ -22,10 +36,14 @@
             }
             catch (Exception ex)
             {
+                _logger = IoC.Container.Resolve<ILoggingService>();
+
                 //Handle exception and prevent it from bubbling up
-                Log.Error(string.Format("Failed to process view '{0}'", this.ViewPath), ex, this);
+                _logger.Error(string.Format("Failed to process view '{0}'", this.ViewPath), "Render", ex.Message, ex);
 
                 Exception innerException = ex.InnerException;
+
+                var format = HttpUtility.HtmlDecode(Settings.GetSetting("MS.Sc.Error.ErrorMessageFormat"));
 
                 //If pagemode is normal then render an html comment with some clues to the problem
                 if (Sitecore.Context.PageMode.IsNormal)
@@ -38,6 +56,13 @@
 
                         innerException = innerException.InnerException;
                     }
+
+                    var messageTitle = HttpUtility.HtmlDecode(Settings.GetSetting("MS.Sc.Error.ErrorMessageTitle"));
+                    var message = HttpUtility.HtmlDecode(Settings.GetSetting("MS.Sc.Error.ErrorMessageText"));
+
+                    var html = string.Format(CultureInfo.InvariantCulture, format, messageTitle, message);
+
+                    writer.Write(html);
                 }
                 else
                 {
@@ -56,5 +81,7 @@
                 }
             }
         }
+
+        #endregion
     }
 }

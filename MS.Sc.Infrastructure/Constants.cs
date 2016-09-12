@@ -1,4 +1,4 @@
-﻿namespace MS.Sc.Business
+﻿namespace MS.Sc.Infrastructure
 {
     /// <summary>
     /// Business Constants Class

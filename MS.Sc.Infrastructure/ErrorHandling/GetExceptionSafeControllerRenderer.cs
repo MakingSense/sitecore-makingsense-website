@@ -1,4 +1,4 @@
-﻿namespace MS.Sc.Business.ErrorHandling
+﻿namespace MS.Sc.Infrastructure.ErrorHandling
 {
     using System;
 

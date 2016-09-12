@@ -1,8 +1,10 @@
-﻿namespace MS.Sc.Business.ErrorHandling
+﻿namespace MS.Sc.Infrastructure.ErrorHandling
 {
     using Sitecore.Mvc.Pipelines.Response.GetRenderer;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Mvc.Extensions;
+    using Logging;
+    using Factories;
 
     /// <summary>
     /// GetExceptionSafeViewRenderer Class

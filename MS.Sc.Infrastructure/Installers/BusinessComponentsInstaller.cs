@@ -24,6 +24,7 @@
             {
                 // Services
                 container.Register(Component.For<Business.Services.ISitecoreService>().ImplementedBy<Business.Services.SitecoreService>());
+                container.Register(Component.For<Business.Helpers.IContactsService>().ImplementedBy<Business.Helpers.ContactsService>().LifeStyle.Singleton);
 
                 // Logging
                 container.Register(Component.For<ILoggingService>().ImplementedBy<WindsorLogging>().Named("WindsorLogging"));

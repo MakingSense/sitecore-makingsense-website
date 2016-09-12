@@ -1,15 +1,29 @@
-﻿namespace MS.Sc.Business.ErrorHandling
+﻿namespace MS.Sc.Infrastructure.ErrorHandling
 {
     using System;
 
-    using Sitecore.Diagnostics;
     using Sitecore.Mvc.Presentation;
+
+    using Logging;
+
+    using Factories;
+    using Sitecore.Configuration;
+    using System.Web;
+    using System.Globalization;
 
     /// <summary>
     /// ExceptionSafeViewRenderer Class
     /// </summary>
     public class ExceptionSafeControllerRenderer : ControllerRenderer
     {
+        #region properties
+
+        private ILoggingService _logger;
+
+        #endregion
+
+        #region methods
+
         /// <summary>
         /// Overrides the exsiting renderer and wraps the render method in a try/catch
         /// </summary>
@@ -22,10 +36,14 @@
             }
             catch (Exception ex)
             {
+                _logger = IoC.Container.Resolve<ILoggingService>();
+
                 //Process any exceptions
-                Log.Error(string.Format("Failed to process controller '{0}.{1}'", this.ControllerName, this.ActionName), ex, this);
+                _logger.Error(string.Format("Failed to process controller '{0}.{1}'", this.ControllerName, this.ActionName), "Render", ex.Message, ex);
 
                 Exception innerException = ex.InnerException;
+
+                var format = HttpUtility.HtmlDecode(Settings.GetSetting("MS.Sc.Error.ErrorMessageFormat"));
 
                 //If in normal mode, render an html comment
                 if (Sitecore.Context.PageMode.IsNormal)
@@ -38,6 +56,13 @@
 
                         innerException = innerException.InnerException;
                     }
+
+                    var messageTitle = HttpUtility.HtmlDecode(Settings.GetSetting("MS.Sc.Error.ErrorMessageTitle"));
+                    var message = HttpUtility.HtmlDecode(Settings.GetSetting("MS.Sc.Error.ErrorMessageText"));
+
+                    var html = string.Format(CultureInfo.InvariantCulture, format, messageTitle, message);
+
+                    writer.Write(html);
                 }
                 else
                 {
@@ -55,6 +80,8 @@
                     writer.Write("</div>");
                 }
             }
+
+            #endregion
         }
     }
 }

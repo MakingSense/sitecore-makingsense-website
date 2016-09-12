@@ -17,7 +17,6 @@
                     </p>
                 </div>
                 <div class="button-holder">
-                    @*<a role="button" class="button button--secondary button--dark button--small subscribe-news-button" href="#subscribe-newsletter">SUBSCRIBE TO OUR NEWSLETTER</a>*@
                     @RenderLink(i => i.Subscribe_Button)
                 </div>
                 <div class="copyright mobile">
@@ -25,7 +24,8 @@
                     <span>@Editable(i => i.Logo_Text)</span>
                 </div>
             </div>
-            <form id="form-newsletter" class="form-newsletter form--inverted" action="http://makingsense.com/subscribe/newsletter.php">
+            @using (Html.BeginForm("CreateContact", "Home", FormMethod.Post, new { @id = "form-newsletter", @class = "form-newsletter form--inverted" }))
+            {
                 <fieldset>
                     <div class="input--holder">
                         <label class="label-visible" for="email" data-text="Your Email:">@Editable(i => i.Email)</label>
@@ -40,7 +40,7 @@
                         <a href="#!" id="cancel-subscribe" class="button button--secondary button--hollow button--small button--white">@Editable(i => i.Cancel)</a>
                     </div>
                 </fieldset>
-            </form>
+            }
         </div>
     </section>
 </footer>

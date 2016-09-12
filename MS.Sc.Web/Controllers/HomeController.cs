@@ -6,8 +6,9 @@
 // <summery></summery>
 namespace MS.Sc.Web.Controllers
 {
+    using Business.Helpers;
     using Infrastructure.Controllers;
-
+    using Infrastructure.Factories;
     using Models;
 
     using System.Web.Mvc;
@@ -18,6 +19,14 @@ namespace MS.Sc.Web.Controllers
     /// <seealso cref="MS.Sc.Infrastructure.Controllers.BaseController" />
     public class HomeController : BaseController
     {
+        #region properties
+
+        private IContactsService ContactsService { get; set; }
+
+        #endregion
+
+        #region methods
+
         // GET: Home
         /// <summary>
         /// vs this instance.
@@ -29,5 +38,21 @@ namespace MS.Sc.Web.Controllers
 
             return View(Constants.ViewsPaths.VideoSlide, viewModel);
         }
+
+        /// <summary>
+        /// Creates the contact.
+        /// </summary>
+        /// <param name="email">The email.</param>
+        /// <returns></returns>
+        [HttpPost]
+        public bool CreateContact(string email)
+        {
+            //TODO: Create contact logic
+            ContactsService = IoC.Resolve<IContactsService>();
+            
+            return ContactsService.CreateUpdateContact(email);
+        }
+
+        #endregion
     }
 }

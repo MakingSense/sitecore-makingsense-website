@@ -85,7 +85,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="ErrorHandling\ExceptionSafeControllerRenderer .cs" />
+    <Compile Include="ErrorHandling\ExceptionSafeViewRenderer.cs" />
+    <Compile Include="ErrorHandling\GetExceptionSafeControllerRenderer.cs" />
+    <Compile Include="ErrorHandling\GetExceptionSafeViewRenderer.cs" />
     <Compile Include="Factories\IoC.cs" />
     <Compile Include="Factories\WindsorControllerFactory.cs" />
     <Compile Include="Helpers\WindsorHelper.cs" />
