@@ -77,9 +77,9 @@ content-length: 77
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 822
+content-length: 1609
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{CC86BD57-6AC4-4F71-A7EE-FAF522AB812C}" p:before="*" s:ds="{C6121457-4BC3-4E5C-BC64-13160F0CC9DA}" s:id="{4C7ED6B3-490D-462A-8EB9-16459F67F3F5}" s:par="" s:ph="/header" /><r uid="{8F0A3D08-F2FD-4BBC-8ECB-D078765F2130}" p:after="r[@uid='{D4E0479A-AC53-49D3-89E3-24310C401E62}']" s:ds="{400D052F-6D1C-4D01-9F15-BE5D3BD19FF7}" s:id="{B508D776-2A47-4F19-B8EE-0B4C5419E2ED}" s:par="" s:ph="/mainContent/homeContent" /><r uid="{37791552-C819-4418-AE61-46910555A4A3}" p:after="r[@uid='{8F0A3D08-F2FD-4BBC-8ECB-D078765F2130}']" s:ds="{6EBC7CE7-9CF2-4514-ADA1-9936D5756612}" s:id="{B4C9E2B9-C96C-4A82-A779-6A3761EAC4C7}" s:par="" s:ph="/mainContent/centerContent" /><r uid="{C2AD526E-B078-496A-9548-08D9AB664FC0}" p:after="*[1=2]" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{CC86BD57-6AC4-4F71-A7EE-FAF522AB812C}" p:before="*" s:ds="{C6121457-4BC3-4E5C-BC64-13160F0CC9DA}" s:id="{4C7ED6B3-490D-462A-8EB9-16459F67F3F5}" s:par="" s:ph="/header" /><r uid="{8F0A3D08-F2FD-4BBC-8ECB-D078765F2130}" p:after="r[@uid='{D4E0479A-AC53-49D3-89E3-24310C401E62}']" s:ds="{400D052F-6D1C-4D01-9F15-BE5D3BD19FF7}" s:id="{B508D776-2A47-4F19-B8EE-0B4C5419E2ED}" s:par="" s:ph="/mainContent/homeContent" /><r uid="{37791552-C819-4418-AE61-46910555A4A3}" p:after="r[@uid='{8F0A3D08-F2FD-4BBC-8ECB-D078765F2130}']" s:ds="{6EBC7CE7-9CF2-4514-ADA1-9936D5756612}" s:id="{B4C9E2B9-C96C-4A82-A779-6A3761EAC4C7}" s:par="" s:ph="/mainContent/centerContent" /><r uid="{775F745A-7D36-4DD4-8ECE-75223CB69C33}" p:after="r[@uid='{37791552-C819-4418-AE61-46910555A4A3}']" s:ds="{38AD9752-887E-480C-A3FA-1B9DA76D703E}" s:id="{69072842-6A23-4631-BAF3-0E0C86E624B9}" s:par="" s:ph="/mainContent/centerContent" /><r uid="{589947D8-8B74-4734-9ADC-F1D0E7DAD0A2}" p:after="r[@uid='{775F745A-7D36-4DD4-8ECE-75223CB69C33}']" s:ds="{8C75A494-4119-49AD-BF36-556CABF7AD4F}" s:id="{F76FFD7C-5B56-42C9-BB13-7B0592432354}" s:par="" s:ph="/mainContent/centerContent" /><r uid="{B68096A7-BA9B-4641-AFAA-140E392B20A2}" p:after="r[@uid='{589947D8-8B74-4734-9ADC-F1D0E7DAD0A2}']" s:ds="{F23058C7-7054-4655-8E1F-59EE3BA13129}" s:id="{A0B9B75E-3D35-4C3C-9EE7-0DA0264BA68B}" s:par="" s:ph="/mainContent/centerContent" /><r uid="{C2AD526E-B078-496A-9548-08D9AB664FC0}" p:after="*[1=2]" s:ds="{CF6A4142-C92C-4011-BC09-38C538140BCF}" s:par="" /></d></r>
 ----field----
 field: {86FE4F77-4D9A-4EC3-9ED9-263D03BD1965}
 name: __Publish
@@ -296,7 +296,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 368dfee7-a71d-4720-b168-6b671d348f91
+revision: cde23827-c034-401f-9453-8e8bd117901a
 
 ----field----
 field: {DB7FEF5A-0957-4FE3-ABE6-E33BB46FC8C4}
@@ -388,14 +388,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-368dfee7-a71d-4720-b168-6b671d348f91
+cde23827-c034-401f-9453-8e8bd117901a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160909T190153Z
+20160912T131427Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

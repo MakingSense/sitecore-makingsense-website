@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {C900E69A-BF71-44B4-B4B9-EB86FA69A8D1}
+database: master
+path: /sitecore/templates/User Defined/Making Sense/Home/WhoWeAre/__Standard Values
+parent: {26214725-91E1-446C-9E8B-A83FCA1523DF}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {26214725-91E1-446C-9E8B-A83FCA1523DF}
+templatekey: WhoWeAre
+created: 20160912T121227:636092791474770000
+
+----version----
+language: en
+version: 1
+revision: 97690089-fc60-40db-b50f-043115334abb
+
+----field----
+field: {C6CDA4A3-5D5B-445A-A33E-003BAC3FE9D5}
+name: Description
+key: description
+content-length: 220
+
+We're a team of analysts, engineers and designers working from offices in the United States, Argentina and Mexico, providing end-to-end UX-focused software development to companies seeking to scale in product innovation.
+----field----
+field: {460E2908-F35D-46D7-A0A1-9B47CBCB8803}
+name: Button
+key: button
+content-length: 130
+
+<link text="MEET US" linktype="internal" class="" title="" target="" querystring="" id="{5F6207E9-05B8-4E02-9F74-572CF2412A20}" />
+----field----
+field: {FA353677-7373-492C-A385-1A74CC78BD5D}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{202FE033-E3F3-45A9-B729-BB88E71994F9}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160912T121227Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+97690089-fc60-40db-b50f-043115334abb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160912T121631Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

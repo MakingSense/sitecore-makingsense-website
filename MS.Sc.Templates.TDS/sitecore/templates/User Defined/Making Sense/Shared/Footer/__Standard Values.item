@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {407F2C5D-EE9D-4254-9FB6-8285B352A2E6}
+database: master
+path: /sitecore/templates/User Defined/Making Sense/Shared/Footer/__Standard Values
+parent: {94FB61A3-99CC-4B4B-B96C-14CAA19E0A42}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {94FB61A3-99CC-4B4B-B96C-14CAA19E0A42}
+templatekey: Footer
+created: 20160912T130454:636092822943670000
+
+----version----
+language: en
+version: 1
+revision: 93483436-d770-4cc8-9b2f-c5681bd9e333
+
+----field----
+field: {F75A969F-B7DD-420C-9D51-385147C4A54E}
+name: Logo Text
+key: logo text
+content-length: 21
+
+2016 Making Sense LLC
+----field----
+field: {EA9EC9D4-5EED-443F-BBC2-023CDD53FB76}
+name: Social Networks
+key: social networks
+content-length: 233
+
+{A8650BD0-2E54-4564-B1F6-35FA1B1C07E8}|{D1FF8DD7-46D3-4DE1-BDC9-7C1DE20F9A21}|{ED9A8483-49F5-495F-82DF-298D359F620F}|{55AECE9D-E6E6-4BFD-B251-2A917008B157}|{D67B6E5F-6840-4FAE-AA73-7C029218C214}|{423069C6-C2B6-4A37-B1F1-E145B023205C}
+----field----
+field: {9DCCA236-CB24-432D-A746-5C8213F2B8B5}
+name: Subscribe Button
+key: subscribe button
+content-length: 211
+
+<link text="SUBSCRIBE TO OUR NEWSLETTER" linktype="anchor" url="#subscribe-newsletter" anchor="#subscribe-newsletter" title="" class="button button--secondary button--dark button--small subscribe-news-button" />
+----field----
+field: {BD157FC5-DBD0-452E-AAE1-D35D9DDD1792}
+name: Email
+key: email
+content-length: 11
+
+Your Email:
+----field----
+field: {E09EE089-A36E-4BCE-B1C2-CC401215E68A}
+name: Subscribe
+key: subscribe
+content-length: 9
+
+Subscribe
+----field----
+field: {290CBE32-D34C-45BF-AB7C-506F81BE20B0}
+name: Cancel
+key: cancel
+content-length: 6
+
+Cancel
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160912T130454Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+93483436-d770-4cc8-9b2f-c5681bd9e333
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160912T133158Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -4,7 +4,12 @@
     using System.Web;
 
     using Glass.Mapper.Sc;
+    using Glass.Mapper.Sc.Web;
     using Glass.Mapper.Sc.Web.Mvc;
+
+    using Sitecore.Mvc;
+    using Sitecore.Mvc.Helpers;
+    using Sitecore.Mvc.Presentation;
 
     /// <summary>
     /// BaseView Class
