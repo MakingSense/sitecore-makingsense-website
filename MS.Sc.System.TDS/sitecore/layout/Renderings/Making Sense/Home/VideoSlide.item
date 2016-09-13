@@ -24,10 +24,24 @@ key: controller action
 content-length: 10
 
 VideoSlide
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 15
+
+./_PageContent/
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 62
+
+/sitecore/templates/User Defined/Making Sense/Home/Video Slide
 ----version----
 language: en
 version: 1
-revision: 37156b47-39cb-4718-b9e3-101732b56620
+revision: 1bd81a05-025c-4610-94ca-83d2c0234236
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-37156b47-39cb-4718-b9e3-101732b56620
+1bd81a05-025c-4610-94ca-83d2c0234236
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160909T183900Z
+20160913T190014Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

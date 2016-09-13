@@ -21,9 +21,9 @@ Multilist
 field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
 name: Source
 key: source
-content-length: 54
+content-length: 79
 
-query:/sitecore/Content/Home//*[@@templatename='Page']
+query:/sitecore/Content/Websites/Making Sense/Home//*[@@templatename='MS Page']
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
@@ -34,7 +34,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 2b37b667-640d-4d87-ac9b-376bdf7d38c8
+revision: 03b1c275-4176-4f20-975e-0bb044460825
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2b37b667-640d-4d87-ac9b-376bdf7d38c8
+03b1c275-4176-4f20-975e-0bb044460825
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160909T131811Z
+20160913T181756Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

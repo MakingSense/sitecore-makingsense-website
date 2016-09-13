@@ -373,6 +373,167 @@ namespace MS.Sc.Models
 
 
  	/// <summary>
+	/// IMS_Page Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Shared/MS Page</para>	
+	/// <para>ID: 2890465a-2bc2-4935-9bea-bcfe04def884</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMS_PageConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IMS_Page : IGlassBase , global::MS.Sc.Models.IPage
+	{
+			
+	}
+
+
+	public static partial class IMS_PageConstants{
+
+			public const string TemplateIdString = "2890465a-2bc2-4935-9bea-bcfe04def884";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "MS Page";
+
+		
+			
+			public static readonly ID CSS_ClassesFieldId = new ID("cdd223e1-4c95-47fb-a7a6-9670693cb243");
+			public const string CSS_ClassesFieldName = "CSS Classes";
+			
+		
+			
+			public static readonly ID Background_ImageFieldId = new ID("b24c74da-fccc-40c8-ae9e-d42fba7b4620");
+			public const string Background_ImageFieldName = "Background Image";
+			
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("c6cda4a3-5d5b-445a-a33e-003bac3fe9d5");
+			public const string DescriptionFieldName = "Description";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("db7fef5a-0957-4fe3-abe6-e33bb46fc8c4");
+			public const string TitleFieldName = "Title";
+			
+		
+			
+			public static readonly ID Meta_DescriptionFieldId = new ID("b4ea1307-f39a-470f-84bb-ca7269fdb392");
+			public const string Meta_DescriptionFieldName = "Meta Description";
+			
+		
+			
+			public static readonly ID Meta_KeywordsFieldId = new ID("f1cd55be-14d3-4958-8e30-cc9789877818");
+			public const string Meta_KeywordsFieldName = "Meta Keywords";
+			
+		
+			
+			public static readonly ID Meta_TitleFieldId = new ID("ed6e4953-c3ef-4f60-b022-f6b024e54660");
+			public const string Meta_TitleFieldName = "Meta Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// MS_Page
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/User Defined/Making Sense/Shared/MS Page</para>	
+	/// <para>ID: 2890465a-2bc2-4935-9bea-bcfe04def884</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMS_PageConstants.TemplateIdString)] //, Cachable = true
+	public partial class MS_Page  : GlassBase, IMS_Page 
+	{
+	   
+		
+				/// <summary>
+				/// The CSS Classes field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: cdd223e1-4c95-47fb-a7a6-9670693cb243</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_PageConstants.CSS_ClassesFieldName)]
+				public virtual string CSS_Classes  {get; set;}
+					
+		
+				/// <summary>
+				/// The Background Image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: b24c74da-fccc-40c8-ae9e-d42fba7b4620</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_PageConstants.Background_ImageFieldName)]
+				public virtual Image Background_Image  {get; set;}
+					
+		
+				/// <summary>
+				/// The Description field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: c6cda4a3-5d5b-445a-a33e-003bac3fe9d5</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_PageConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: db7fef5a-0957-4fe3-abe6-e33bb46fc8c4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_PageConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+		
+				/// <summary>
+				/// The Meta Description field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: b4ea1307-f39a-470f-84bb-ca7269fdb392</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_PageConstants.Meta_DescriptionFieldName)]
+				public virtual string Meta_Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The Meta Keywords field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: f1cd55be-14d3-4958-8e30-cc9789877818</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_PageConstants.Meta_KeywordsFieldName)]
+				public virtual string Meta_Keywords  {get; set;}
+					
+		
+				/// <summary>
+				/// The Meta Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: ed6e4953-c3ef-4f60-b022-f6b024e54660</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IMS_PageConstants.Meta_TitleFieldName)]
+				public virtual string Meta_Title  {get; set;}
+					
+			
+	}
+
+}
+namespace MS.Sc.Models
+{
+
+
+ 	/// <summary>
 	/// IPage Interface
 	/// <para></para>
 	/// <para>Path: /sitecore/templates/User Defined/Global/Base/Page</para>	

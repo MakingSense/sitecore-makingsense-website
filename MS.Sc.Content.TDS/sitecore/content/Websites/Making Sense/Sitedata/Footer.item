@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {CF6A4142-C92C-4011-BC09-38C538140BCF}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Footer
+parent: {3A19ADF6-FB6D-4500-AD80-5F365C02A95D}
+name: Footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {94FB61A3-99CC-4B4B-B96C-14CAA19E0A42}
+templatekey: Footer
+created: 20160912T131356:636092828366900000
+
+----version----
+language: en
+version: 1
+revision: 1495793f-cda9-4085-b857-2110c8abb7aa
+
+----field----
+field: {9DCCA236-CB24-432D-A746-5C8213F2B8B5}
+name: Subscribe Button
+key: subscribe button
+content-length: 209
+
+<link text="SUBSCRIBE TO OUR NEWSLETTER" linktype="anchor" url="subscribe-newsletter" anchor="subscribe-newsletter" title="" class="button button--secondary button--dark button--small subscribe-news-button" />
+----field----
+field: {DA649B32-43D7-4F0F-929C-A873467B7713}
+name: Telephone
+key: telephone
+content-length: 10
+
+Telephone:
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160912T131356Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1495793f-cda9-4085-b857-2110c8abb7aa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160912T133415Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

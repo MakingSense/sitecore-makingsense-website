@@ -226,6 +226,7 @@
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
+    <Content Include="App_Config\Include\MS.Sc.SitesDefinition.config" />
     <None Include="App_Config\Include\MS.Sc.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Shared\HeaderMobile.cshtml" />

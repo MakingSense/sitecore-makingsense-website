@@ -1,33 +1,35 @@
 ﻿@inherits MS.Sc.Infrastructure.Views.BaseView<MS.Sc.Models.ICase_Studies_Slider>
 @{ int cnt = 1; int cnt2 = 1; }
-<section class="section--auto-height section--home-slider" id="our-work">
-    <div class="section-touch">
-        <h2 class="print">@Editable(i => i.Title)</h2>
-        @foreach (var slide in Model.Slides)
-        {
-            <div id="slide@(cnt)" class="item slide-@slide.CSS_Class" style="background-image:url('@(slide.Background_Image != null ? slide.Background_Image.Src : string.Empty)')">
-                <div class="section--content">
-                    <h2>@Editable(slide, s => s.Description)</h2>
-                    <p>@Editable(slide, s => s.Author)</p>
-                    <a href="#video-slide@(cnt++)" role="button" class="button play-testimonial">
-                        <span class="player"><span class="arrow-player"></span></span>
-                    </a>
-                </div>
-                <div class="pager">
-                    @{ int sb = 1; }
-                    @foreach (var s in Model.Slides)
-                    {
-                        <a href="#slide@(sb++)" role="button" class="pager-@(s.CSS_Class) @(s.Id == slide.Id ? "active" : string.Empty)">
-                            @RenderImage(s, i => i.Image)
-                            <span>@Editable(s, i => i.Company_Name)</span>
+@using (BeginEditFrame(Model, "Select Slides", x => x.Slides))
+{
+    <section class="section--auto-height section--home-slider" id="our-work">
+        <div class="section-touch">
+            <h2 class="print">@Editable(i => i.Title)</h2>
+            @foreach (var slide in Model.Slides)
+            {
+                <div id="slide@(cnt)" class="item slide-@slide.CSS_Class" style="background-image:url('@(slide.Background_Image != null ? slide.Background_Image.Src : string.Empty)')">
+                    <div class="section--content">
+                        <h2>@Editable(slide, s => s.Description)</h2>
+                        <p>@Editable(slide, s => s.Author)</p>
+                        <a href="#video-slide@(cnt++)" role="button" class="button play-testimonial">
+                            <span class="player"><span class="arrow-player"></span></span>
                         </a>
-                    }
+                    </div>
+                    <div class="pager">
+                        @{ int sb = 1; }
+                        @foreach (var s in Model.Slides)
+                        {
+                            <a href="#slide@(sb++)" role="button" class="pager-@(s.CSS_Class) @(s.Id == slide.Id ? "active" : string.Empty)">
+                                @RenderImage(s, i => i.Image)
+                                <span>@Editable(s, i => i.Company_Name)</span>
+                            </a>
+                        }
+                    </div>
                 </div>
-            </div>
-        }
-    </div>
-</section>
-
+            }
+        </div>
+    </section>
+}
 @foreach (var slide in Model.Slides)
 {
     <section id="modal--video-slide@(cnt2)" class="modal--home-section">

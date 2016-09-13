@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {423069C6-C2B6-4A37-B1F1-E145B023205C}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Social Networks/Crunchbase
+parent: {D603A27B-A68C-44C8-AE0F-C969EB043780}
+name: Crunchbase
+master: {00000000-0000-0000-0000-000000000000}
+template: {E06A4F0B-6D79-423B-9C6F-5C54E6C62A9B}
+templatekey: Social Network
+created: 20160909T130611:636090231713270000
+
+----version----
+language: en
+version: 1
+revision: 1bc524cf-a993-465b-aee4-9ab862869121
+
+----field----
+field: {1FE8A8A2-87F2-49C2-80BB-108EF19ECE16}
+name: Name
+key: name
+content-length: 10
+
+Crunchbase
+----field----
+field: {E0B7CEAA-3CBD-48F0-99F9-350C501EB3B9}
+name: Link
+key: link
+content-length: 112
+
+<link linktype="external" url="http://www.crunchbase.com/organization/making-sense" anchor="" target="_blank" />
+----field----
+field: {9CE4DC51-AFA1-413D-A97F-70EC4C58C94F}
+name: CSS Class
+key: css class
+content-length: 10
+
+crunchBase
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T130611Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1bc524cf-a993-465b-aee4-9ab862869121
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160912T132017Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

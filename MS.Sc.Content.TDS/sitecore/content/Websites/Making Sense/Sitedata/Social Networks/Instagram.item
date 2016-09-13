@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {ED9A8483-49F5-495F-82DF-298D359F620F}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Social Networks/Instagram
+parent: {D603A27B-A68C-44C8-AE0F-C969EB043780}
+name: Instagram
+master: {00000000-0000-0000-0000-000000000000}
+template: {E06A4F0B-6D79-423B-9C6F-5C54E6C62A9B}
+templatekey: Social Network
+created: 20160909T130447:636090230876770000
+
+----version----
+language: en
+version: 1
+revision: fbdad344-f823-4236-a9d2-d955ac70328d
+
+----field----
+field: {1FE8A8A2-87F2-49C2-80BB-108EF19ECE16}
+name: Name
+key: name
+content-length: 9
+
+Instagram
+----field----
+field: {E0B7CEAA-3CBD-48F0-99F9-350C501EB3B9}
+name: Link
+key: link
+content-length: 97
+
+<link linktype="external" url="http://instagram.com/makingsenseapps" anchor="" target="_blank" />
+----field----
+field: {9CE4DC51-AFA1-413D-A97F-70EC4C58C94F}
+name: CSS Class
+key: css class
+content-length: 9
+
+instagram
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T130447Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fbdad344-f823-4236-a9d2-d955ac70328d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T131427Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

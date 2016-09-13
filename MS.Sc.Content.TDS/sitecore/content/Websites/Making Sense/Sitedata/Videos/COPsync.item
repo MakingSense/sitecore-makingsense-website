@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {01312745-10A0-422E-B6E3-4EF7CFB0C70E}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Videos/COPsync
+parent: {AA369AC7-2DBC-41B5-B8BE-2002E6DD135F}
+name: COPsync
+master: {00000000-0000-0000-0000-000000000000}
+template: {4E508908-BCD7-4EF0-98A9-568BDB1FC30D}
+templatekey: MS Video
+created: 20160909T141101:636090270618700000
+
+----version----
+language: en
+version: 1
+revision: 26c1a323-496a-432e-bbbb-5235f602a5d5
+
+----field----
+field: {565F0E2C-0CD9-48FC-AB77-38643731463A}
+name: Name
+key: name
+content-length: 7
+
+COPsync
+----field----
+field: {347E4E85-3962-4326-BA48-E7DA4EEC3BC1}
+name: MP4 Video
+key: mp4 video
+content-length: 38
+
+{F48C5E36-67BA-4AF7-8F0E-0950DF8C8AB1}
+----field----
+field: {6C036C23-4359-468F-82CD-3679F4D7CA82}
+name: OGG Video
+key: ogg video
+content-length: 38
+
+{FCC65FEC-8833-4EF6-A49F-2A357562337E}
+----field----
+field: {DD9373C4-44E3-4398-9E15-CC0A16E5B9B2}
+name: WebM Video
+key: webm video
+content-length: 38
+
+{7F5FC9CE-4B01-4DEC-82F2-FF8C529642AD}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T141101Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+26c1a323-496a-432e-bbbb-5235f602a5d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T141613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {47A8336F-9638-42E9-BD27-E55C06D402FF}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Companies/The Scooter Store
+parent: {29DC99A9-B2F2-423B-9BF6-D318B2B19D40}
+name: The Scooter Store
+master: {00000000-0000-0000-0000-000000000000}
+template: {9C5A12FB-0475-405B-9CDE-273B0FBF1FE3}
+templatekey: Company
+created: 20160912T124023:636092808232870000
+
+----version----
+language: en
+version: 1
+revision: 08b3438e-b64e-4013-8bce-0276e2862255
+
+----field----
+field: {CA92BFF4-AE6E-4D45-892E-871DDFBD5B86}
+name: Name
+key: name
+content-length: 17
+
+The Scooter Store
+----field----
+field: {56575802-812E-4ED9-99DE-C813C3626925}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{2562C7FF-203A-4700-8BA1-76F5D1311AB1}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160912T124023Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08b3438e-b64e-4013-8bce-0276e2862255
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160912T125851Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

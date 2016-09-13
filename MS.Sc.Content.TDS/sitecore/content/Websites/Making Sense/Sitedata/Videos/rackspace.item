@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {6DF46D95-CCBA-40D8-BA34-E4A85A370231}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Videos/rackspace
+parent: {AA369AC7-2DBC-41B5-B8BE-2002E6DD135F}
+name: rackspace
+master: {00000000-0000-0000-0000-000000000000}
+template: {4E508908-BCD7-4EF0-98A9-568BDB1FC30D}
+templatekey: MS Video
+created: 20160909T141659:636090274193730000
+
+----version----
+language: en
+version: 1
+revision: d029ea9c-2093-4104-a7b0-72d13a89cbe8
+
+----field----
+field: {565F0E2C-0CD9-48FC-AB77-38643731463A}
+name: Name
+key: name
+content-length: 9
+
+rackspace
+----field----
+field: {347E4E85-3962-4326-BA48-E7DA4EEC3BC1}
+name: MP4 Video
+key: mp4 video
+content-length: 38
+
+{5CE59563-7079-4E5F-8B90-A4F2B9A3A655}
+----field----
+field: {6C036C23-4359-468F-82CD-3679F4D7CA82}
+name: OGG Video
+key: ogg video
+content-length: 38
+
+{0344190D-6824-4E6E-8B5E-3200A45458F8}
+----field----
+field: {DD9373C4-44E3-4398-9E15-CC0A16E5B9B2}
+name: WebM Video
+key: webm video
+content-length: 38
+
+{D65409B7-BC43-47B7-B1F3-2E082BFD981E}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T141659Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d029ea9c-2093-4104-a7b0-72d13a89cbe8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T141710Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

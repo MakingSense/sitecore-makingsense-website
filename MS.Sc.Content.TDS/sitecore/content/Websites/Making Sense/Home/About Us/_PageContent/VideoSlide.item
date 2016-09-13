@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {A2E7F153-A4A0-4F53-8BEE-6E70699EE47A}
+database: master
+path: /sitecore/content/Websites/Making Sense/Home/About Us/_PageContent/VideoSlide
+parent: {43A74FC9-BE9A-4412-B8DC-6AD51D71BD59}
+name: VideoSlide
+master: {00000000-0000-0000-0000-000000000000}
+template: {10FA6DE3-E011-48CE-AB1F-7E792ED7008C}
+templatekey: Video Slide
+created: 20160913T190045:636093900456900000
+
+----version----
+language: en
+version: 1
+revision: 53384ad8-1609-42e7-bad1-2d298114073f
+
+----field----
+field: {DB7FEF5A-0957-4FE3-ABE6-E33BB46FC8C4}
+name: Title
+key: title
+content-length: 8
+
+About Us
+----field----
+field: {C6CDA4A3-5D5B-445A-A33E-003BAC3FE9D5}
+name: Description
+key: description
+content-length: 64
+
+<p>This is the About Us section test!</p>
+<strong><br>
+</strong>
+----field----
+field: {CA894DDF-EC5C-4BC2-A8B9-99BE7776DBBD}
+name: Background Image
+key: background image
+content-length: 58
+
+<image mediaid="{B6F54C1D-EFED-400D-B3C4-5D8F01080832}" />
+----field----
+field: {CE0C2818-148E-4A75-B0EE-6D3371F5A9F7}
+name: Video
+key: video
+content-length: 38
+
+{6DF46D95-CCBA-40D8-BA34-E4A85A370231}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160913T190045Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+53384ad8-1609-42e7-bad1-2d298114073f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160913T191650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

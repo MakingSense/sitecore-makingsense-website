@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {FA728258-F6CF-4AA1-B27C-A4E6424B487A}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Videos/VidTac
+parent: {AA369AC7-2DBC-41B5-B8BE-2002E6DD135F}
+name: VidTac
+master: {00000000-0000-0000-0000-000000000000}
+template: {4E508908-BCD7-4EF0-98A9-568BDB1FC30D}
+templatekey: MS Video
+created: 20160909T141728:636090274485130000
+
+----version----
+language: en
+version: 1
+revision: 18b6d1cf-46ab-418f-941d-72b839f1d725
+
+----field----
+field: {565F0E2C-0CD9-48FC-AB77-38643731463A}
+name: Name
+key: name
+content-length: 6
+
+VidTac
+----field----
+field: {347E4E85-3962-4326-BA48-E7DA4EEC3BC1}
+name: MP4 Video
+key: mp4 video
+content-length: 38
+
+{AC6E9A65-4830-499E-AC97-2EC292DDB2B1}
+----field----
+field: {6C036C23-4359-468F-82CD-3679F4D7CA82}
+name: OGG Video
+key: ogg video
+content-length: 38
+
+{F7592FD2-D34D-4776-892E-3BE578C44BE1}
+----field----
+field: {DD9373C4-44E3-4398-9E15-CC0A16E5B9B2}
+name: WebM Video
+key: webm video
+content-length: 38
+
+{2C5BA0FD-6695-4DAD-8633-F852D30A152E}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T141728Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+18b6d1cf-46ab-418f-941d-72b839f1d725
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T141739Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

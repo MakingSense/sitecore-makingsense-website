@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {70632962-36C1-4F36-9623-FD2BDA67656E}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Companies/Amd
+parent: {29DC99A9-B2F2-423B-9BF6-D318B2B19D40}
+name: Amd
+master: {00000000-0000-0000-0000-000000000000}
+template: {9C5A12FB-0475-405B-9CDE-273B0FBF1FE3}
+templatekey: Company
+created: 20160912T123806:636092806860430000
+
+----version----
+language: en
+version: 1
+revision: 734c261a-0d54-4982-ab71-14c992d46803
+
+----field----
+field: {CA92BFF4-AE6E-4D45-892E-871DDFBD5B86}
+name: Name
+key: name
+content-length: 3
+
+Amd
+----field----
+field: {56575802-812E-4ED9-99DE-C813C3626925}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{05E8E4C3-E740-4A08-B278-69E40E7F0B55}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160912T123806Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+734c261a-0d54-4982-ab71-14c992d46803
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160912T125816Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

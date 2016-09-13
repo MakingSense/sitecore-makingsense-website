@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {C6121457-4BC3-4E5C-BC64-13160F0CC9DA}
+database: master
+path: /sitecore/content/Websites/Making Sense/Sitedata/Header
+parent: {3A19ADF6-FB6D-4500-AD80-5F365C02A95D}
+name: Header
+master: {00000000-0000-0000-0000-000000000000}
+template: {4754AC46-0478-4958-B485-99329AE5F139}
+templatekey: Header
+created: 20160908T130342:636089366221530000
+
+----version----
+language: en
+version: 1
+revision: d00d4a82-0f2b-49a6-900c-ce7be1fbcbaa
+
+----field----
+field: {BB1CBE07-0559-42B0-A44E-CD5BCCB8AE65}
+name: Menu Items
+key: menu items
+content-length: 233
+
+{33DDBBBA-B5C7-4EBD-8C0F-783D8644EAF8}|{25F248B3-69D2-49BB-BB6F-C72320047ACD}|{1B317A59-E7A0-48F6-A5D6-B6A6DA144A73}|{D91C10E6-584B-468B-9DC6-C9F3C1125430}|{0CA8BF2A-DE7E-4C1D-978E-82F54CD31234}|{2D1A44AB-E784-44F7-A066-732073AEA52E}
+----field----
+field: {F78BA614-364E-449D-B8EF-BD1AA6F261E9}
+name: Social Networks
+key: social networks
+content-length: 233
+
+{A8650BD0-2E54-4564-B1F6-35FA1B1C07E8}|{D1FF8DD7-46D3-4DE1-BDC9-7C1DE20F9A21}|{ED9A8483-49F5-495F-82DF-298D359F620F}|{55AECE9D-E6E6-4BFD-B251-2A917008B157}|{D67B6E5F-6840-4FAE-AA73-7C029218C214}|{423069C6-C2B6-4A37-B1F1-E145B023205C}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160908T130342Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d00d4a82-0f2b-49a6-900c-ce7be1fbcbaa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160913T181824Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {33DDBBBA-B5C7-4EBD-8C0F-783D8644EAF8}
+database: master
+path: /sitecore/content/Websites/Making Sense/Home/About Us
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: About Us
+master: {3FA52199-54E0-48AC-AC4B-F1D7BC3CC8E5}
+template: {2890465A-2BC2-4935-9BEA-BCFE04DEF884}
+templatekey: MS Page
+created: 20160913T181019:636093870194300000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{1FB81096-A957-42A7-A39A-63BA205BC115}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 264
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FCDD313F-0755-4A59-9057-307EDA9CB062}" p:after="*[1=2]" s:id="{4D2DD891-56EC-4A71-8BBE-D3910E0F9300}" s:ph="/mainContent" /></d></r>
+----version----
+language: en
+version: 1
+revision: 3790dbe5-2e31-496c-b822-761858a438c5
+
+----field----
+field: {DB7FEF5A-0957-4FE3-ABE6-E33BB46FC8C4}
+name: Title
+key: title
+content-length: 8
+
+About Us
+----field----
+field: {C6CDA4A3-5D5B-445A-A33E-003BAC3FE9D5}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 281
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{43A3E89D-0779-4ED6-8CE3-F52BB558ADFA}" p:after="*[1=2]" s:ds="{A2E7F153-A4A0-4F53-8BEE-6E70699EE47A}" s:id="{B508D776-2A47-4F19-B8EE-0B4C5419E2ED}" s:ph="/mainContent/homeContent" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160913T181019Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3790dbe5-2e31-496c-b822-761858a438c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160913T201604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

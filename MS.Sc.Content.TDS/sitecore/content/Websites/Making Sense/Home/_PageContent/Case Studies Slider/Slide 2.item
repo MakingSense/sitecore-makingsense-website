@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {F6944203-0D7F-4592-ADB5-3ABC577D77DD}
+database: master
+path: /sitecore/content/Websites/Making Sense/Home/_PageContent/Case Studies Slider/Slide 2
+parent: {38AD9752-887E-480C-A3FA-1B9DA76D703E}
+name: Slide 2
+master: {00000000-0000-0000-0000-000000000000}
+template: {96A2265C-F974-48E2-9A5D-F22028F14EF6}
+templatekey: Case Study Slide
+created: 20160909T200119:636090480793570000
+
+----version----
+language: en
+version: 1
+revision: 3f55502d-b357-45f3-956b-1664f1949f10
+
+----field----
+field: {DB7FEF5A-0957-4FE3-ABE6-E33BB46FC8C4}
+name: Title
+key: title
+content-length: 7
+
+Slide 2
+----field----
+field: {C6CDA4A3-5D5B-445A-A33E-003BAC3FE9D5}
+name: Description
+key: description
+content-length: 134
+
+<blockquote>“We believe that Making Sense delivered an excellent product at a fair price in a remarkable amount of time”.</blockquote>
+----field----
+field: {A0AEF149-9716-44AB-ACC8-D26C32BF3A88}
+name: Author
+key: author
+content-length: 54
+
+COLE HUMPHREYS, PRODUCT MARKETING MANAGER AT RACKSPACE
+----field----
+field: {052C2096-0374-4B92-B64C-0A565D6CD35E}
+name: Video
+key: video
+content-length: 38
+
+{6DF46D95-CCBA-40D8-BA34-E4A85A370231}
+----field----
+field: {78E36448-9CD0-4C10-B56D-6EB7D5CE01B3}
+name: Company Name
+key: company name
+content-length: 9
+
+RACKSPACE
+----field----
+field: {C80C7DD4-9CFD-4001-AE8A-B23226932AED}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C1D71BB2-B41B-409D-8BBA-14943D2F8246}" />
+----field----
+field: {05936364-450F-41E0-8FDB-E32E531F5F5B}
+name: CSS Class
+key: css class
+content-length: 3
+
+two
+----field----
+field: {0878843E-0E3B-48AE-ACBB-86F313341650}
+name: Background Image
+key: background image
+content-length: 58
+
+<image mediaid="{B6F54C1D-EFED-400D-B3C4-5D8F01080832}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160909T200119Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f55502d-b357-45f3-956b-1664f1949f10
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160909T200319Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
